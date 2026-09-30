@@ -25,18 +25,24 @@
     <ColorPalette>C_BUTTON_Palette1=#C80000,C_CHECKBOX_Palette1=1,C_BUTTON_Palette2=#00A000,C_CHECKBOX_Palette2=1,C_BUTTON_Palette3=#FFD700,C_CHECKBOX_Palette3=1,C_BUTTON_Palette4=#FFF4D0,C_CHECKBOX_Palette4=1,C_SLIDER_Brightness=100</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#D00000,C_CHECKBOX_Palette1=1,C_BUTTON_Palette2=#00B000,C_CHECKBOX_Palette2=1,C_SLIDER_Brightness=100</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#D00000,C_CHECKBOX_Palette1=1,C_BUTTON_Palette2=#00B000,C_CHECKBOX_Palette2=1,C_SLIDER_Brightness=100,C_SLIDER_SparkleFrequency=40</ColorPalette>
-    <ColorPalette>C_BUTTON_Palette1=#0030C0,C_CHECKBOX_Palette1=1,C_BUTTON_Palette2=#0090FF,C_CHECKBOX_Palette2=1,C_BUTTON_Palette3=#A0E0FF,C_CHECKBOX_Palette3=1,C_BUTTON_Palette4=#FFFFFF,C_CHECKBOX_Palette4=1,C_SLIDER_Brightness=80</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#0030C0,C_CHECKBOX_Palette1=1,C_BUTTON_Palette2=#0090FF,C_CHECKBOX_Palette2=1,C_BUTTON_Palette3=#A0E0FF,C_CHECKBOX_Palette3=1,C_BUTTON_Palette4=#FFFFFF,C_CHECKBOX_Palette4=1,C_SLIDER_Brightness=55</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FFD700,C_CHECKBOX_Palette1=1,C_BUTTON_Palette2=#FFF4D0,C_CHECKBOX_Palette2=1,C_BUTTON_Palette3=#C80000,C_CHECKBOX_Palette3=1,C_SLIDER_Brightness=100,C_SLIDER_SparkleFrequency=40</ColorPalette>
-    <ColorPalette>C_BUTTON_Palette1=#5A00B0,C_CHECKBOX_Palette1=1,C_BUTTON_Palette2=#FFD700,C_CHECKBOX_Palette2=1,C_BUTTON_Palette3=#FF00A0,C_CHECKBOX_Palette3=1,C_SLIDER_Brightness=100</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#5A00B0,C_CHECKBOX_Palette1=1,C_BUTTON_Palette2=#FFD700,C_CHECKBOX_Palette2=1,C_SLIDER_Brightness=100</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#C80000,C_CHECKBOX_Palette1=1,C_BUTTON_Palette2=#00A000,C_CHECKBOX_Palette2=1,C_SLIDER_Brightness=100</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#C80000,C_CHECKBOX_Palette1=1,C_BUTTON_Palette2=#00A000,C_CHECKBOX_Palette2=1,C_BUTTON_Palette3=#FFD700,C_CHECKBOX_Palette3=1,C_BUTTON_Palette4=#FFF4D0,C_CHECKBOX_Palette4=1,C_SLIDER_Brightness=100,C_SLIDER_SparkleFrequency=40</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#D00000,C_CHECKBOX_Palette1=1,C_BUTTON_Palette2=#00B000,C_CHECKBOX_Palette2=1,C_SLIDER_Brightness=70,C_SLIDER_SparkleFrequency=30</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FFD700,C_CHECKBOX_Palette1=1,C_BUTTON_Palette2=#FFF4D0,C_CHECKBOX_Palette2=1,C_SLIDER_Brightness=100</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_CHECKBOX_Palette1=1,C_BUTTON_Palette2=#C80000,C_CHECKBOX_Palette2=1,C_BUTTON_Palette3=#00A000,C_CHECKBOX_Palette3=1,C_BUTTON_Palette4=#FFD700,C_CHECKBOX_Palette4=1,C_BUTTON_Palette5=#FFF4D0,C_CHECKBOX_Palette5=1,C_SLIDER_Brightness=100</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#80D0FF,C_CHECKBOX_Palette1=1,C_BUTTON_Palette2=#FFFFFF,C_CHECKBOX_Palette2=1,C_SLIDER_Brightness=100</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FFD700,C_CHECKBOX_Palette1=1,C_BUTTON_Palette2=#FFF4D0,C_CHECKBOX_Palette2=1,C_BUTTON_Palette3=#C80000,C_CHECKBOX_Palette3=1,C_SLIDER_Brightness=100</ColorPalette>
-    <ColorPalette>C_BUTTON_Palette1=#5A00B0,C_CHECKBOX_Palette1=1,C_BUTTON_Palette2=#FFD700,C_CHECKBOX_Palette2=1,C_BUTTON_Palette3=#FF00A0,C_CHECKBOX_Palette3=1,C_SLIDER_Brightness=45</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_CHECKBOX_Palette1=1,C_BUTTON_Palette2=#D00000,C_CHECKBOX_Palette2=1,C_BUTTON_Palette3=#00B000,C_CHECKBOX_Palette3=1,C_SLIDER_Brightness=100</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#5A00B0,C_CHECKBOX_Palette1=1,C_BUTTON_Palette2=#FFD700,C_CHECKBOX_Palette2=1,C_BUTTON_Palette3=#FF00A0,C_CHECKBOX_Palette3=1,C_SLIDER_Brightness=100</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#C80000,C_CHECKBOX_Palette1=1,C_BUTTON_Palette2=#00A000,C_CHECKBOX_Palette2=1,C_BUTTON_Palette3=#FFD700,C_CHECKBOX_Palette3=1,C_BUTTON_Palette4=#FFF4D0,C_CHECKBOX_Palette4=1,C_SLIDER_Brightness=30</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#5A00B0,C_CHECKBOX_Palette1=1,C_BUTTON_Palette2=#FFD700,C_CHECKBOX_Palette2=1,C_BUTTON_Palette3=#FF00A0,C_CHECKBOX_Palette3=1,C_SLIDER_Brightness=40</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#C80000,C_CHECKBOX_Palette1=1,C_BUTTON_Palette2=#00A000,C_CHECKBOX_Palette2=1,C_BUTTON_Palette3=#FFD700,C_CHECKBOX_Palette3=1,C_BUTTON_Palette4=#FFF4D0,C_CHECKBOX_Palette4=1,C_SLIDER_Brightness=45</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#80D0FF,C_CHECKBOX_Palette1=1,C_BUTTON_Palette2=#FFFFFF,C_CHECKBOX_Palette2=1,C_SLIDER_Brightness=50</ColorPalette>
-    <ColorPalette>C_BUTTON_Palette1=#FFD700,C_CHECKBOX_Palette1=1,C_BUTTON_Palette2=#FFF4D0,C_CHECKBOX_Palette2=1,C_BUTTON_Palette3=#C80000,C_CHECKBOX_Palette3=1,C_SLIDER_Brightness=45</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#D00000,C_CHECKBOX_Palette1=1,C_BUTTON_Palette2=#00B000,C_CHECKBOX_Palette2=1,C_SLIDER_Brightness=30</ColorPalette>
+    <ColorPalette>C_BUTTON_Palette1=#FFD700,C_CHECKBOX_Palette1=1,C_BUTTON_Palette2=#FFF4D0,C_CHECKBOX_Palette2=1,C_BUTTON_Palette3=#C80000,C_CHECKBOX_Palette3=1,C_SLIDER_Brightness=40</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#D00000,C_CHECKBOX_Palette1=1,C_BUTTON_Palette2=#00B000,C_CHECKBOX_Palette2=1,C_SLIDER_Brightness=45</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FFF0C0,C_CHECKBOX_Palette1=1,C_SLIDER_Brightness=60</ColorPalette>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_CHECKBOX_Palette1=1,C_SLIDER_Brightness=35</ColorPalette>
@@ -54,24 +60,24 @@
   </ColorPalettes>
   <EffectDB>
     <Effect>T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.00,T_TEXTCTRL_Fadeout=0.45,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
-    <Effect>E_CHOICE_VUMeter_Type=Timing Event Jump,E_CHOICE_VUMeter_TimingTrack=Beats,E_SLIDER_VUMeter_Bars=6,T_CHOICE_LayerMethod=Max,T_TEXTCTRL_Fadein=0.00,T_TEXTCTRL_Fadeout=0.00,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
-    <Effect>E_SLIDER_Twinkle_Count=4,E_SLIDER_Twinkle_Steps=40,T_CHOICE_LayerMethod=Max,T_TEXTCTRL_Fadein=1.50,T_TEXTCTRL_Fadeout=1.00,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
+    <Effect>E_CHOICE_VUMeter_Type=Timing Event Jump,E_CHOICE_VUMeter_TimingTrack=Beats,E_SLIDER_VUMeter_Bars=6,T_CHOICE_LayerMethod=Additive,T_TEXTCTRL_Fadein=0.00,T_TEXTCTRL_Fadeout=0.00,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
+    <Effect>E_SLIDER_Twinkle_Count=4,E_SLIDER_Twinkle_Steps=40,T_CHOICE_LayerMethod=Additive,T_TEXTCTRL_Fadein=1.50,T_TEXTCTRL_Fadeout=1.00,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
     <Effect>E_SLIDER_Twinkle_Count=3,E_SLIDER_Twinkle_Steps=50,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=3.00,T_TEXTCTRL_Fadeout=0.50,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
     <Effect>E_CHOICE_Meteors_Type=Palette,E_CHOICE_Meteors_Effect=Up,E_SLIDER_Meteors_Count=15,E_SLIDER_Meteors_Length=40,E_SLIDER_Meteors_Speed=20,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.50,T_TEXTCTRL_Fadeout=0.00,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
     <Effect>E_SLIDER_Bars_BarCount=3,E_TEXTCTRL_Bars_Cycles=8.0,E_CHOICE_Bars_Direction=up,E_CHECKBOX_Bars_3D=1,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.30,T_TEXTCTRL_Fadeout=0.30,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
     <Effect>E_SLIDER_Spirals_Count=3,E_SLIDER_Spirals_Rotation=30,E_SLIDER_Spirals_Thickness=60,E_TEXTCTRL_Spirals_Movement=4.0,E_CHECKBOX_Spirals_3D=1,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.30,T_TEXTCTRL_Fadeout=0.30,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
-    <Effect>E_CHOICE_Meteors_Type=Palette,E_CHOICE_Meteors_Effect=Down,E_SLIDER_Meteors_Count=25,E_SLIDER_Meteors_Length=35,E_SLIDER_Meteors_Speed=18,E_CHECKBOX_Meteors_UseMusic=1,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.30,T_TEXTCTRL_Fadeout=0.50,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
+    <Effect>E_CHOICE_Meteors_Type=Palette,E_CHOICE_Meteors_Effect=Down,E_SLIDER_Meteors_Count=25,E_SLIDER_Meteors_Length=35,E_SLIDER_Meteors_Speed=18,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.30,T_TEXTCTRL_Fadeout=0.50,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
     <Effect>E_SLIDER_Fire_Height=65,E_CHECKBOX_Fire_GrowWithMusic=1,E_TEXTCTRL_Fire_GrowthCycles=0.0,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.50,T_TEXTCTRL_Fadeout=0.50,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
     <Effect>E_CHOICE_Butterfly_Colors=Palette,E_SLIDER_Butterfly_Style=2,E_SLIDER_Butterfly_Chunks=3,E_SLIDER_Butterfly_Skip=2,E_SLIDER_Butterfly_Speed=25,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.30,T_TEXTCTRL_Fadeout=0.30,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
     <Effect>E_TEXTCTRL_ColorWash_Cycles=4.0,E_CHECKBOX_ColorWash_VFade=1,E_CHECKBOX_ColorWash_CircularPalette=1,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.30,T_TEXTCTRL_Fadeout=0.30,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
-    <Effect>E_SLIDER_Spirals_Count=2,E_SLIDER_Spirals_Rotation=15,E_SLIDER_Spirals_Thickness=70,E_TEXTCTRL_Spirals_Movement=1.5,E_CHECKBOX_Spirals_Blend=1,E_CHECKBOX_Spirals_3D=1,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=1.50,T_TEXTCTRL_Fadeout=1.00,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
+    <Effect>E_SLIDER_Spirals_Count=2,E_SLIDER_Spirals_Rotation=15,E_SLIDER_Spirals_Thickness=70,E_TEXTCTRL_Spirals_Movement=1.5,E_CHECKBOX_Spirals_Blend=1,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=1.50,T_TEXTCTRL_Fadeout=1.00,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
     <Effect>E_TEXTCTRL_ColorWash_Cycles=2.0,E_CHECKBOX_ColorWash_VFade=1,E_CHECKBOX_ColorWash_CircularPalette=1,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.30,T_TEXTCTRL_Fadeout=0.30,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
     <Effect>E_TEXTCTRL_ColorWash_Cycles=1.0,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.50,T_TEXTCTRL_Fadeout=4.00,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
     <Effect>E_TEXTCTRL_Text=CRUISIN',E_CHOICE_Text_Font=7-7x9 Bold,E_CHOICE_Text_Dir=none,E_CHECKBOX_TextToCenter=1,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=2.00,T_TEXTCTRL_Fadeout=1.00,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
-    <Effect>E_SLIDER_Shockwave_End_Radius=60,E_SLIDER_Shockwave_Start_Width=4,E_SLIDER_Shockwave_End_Width=12,E_CHOICE_Shockwave_TimingTrack=Bars,E_SLIDER_Shockwave_Duration=900,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.00,T_TEXTCTRL_Fadeout=0.00,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
-    <Effect>E_SLIDER_Fireworks_Explosions=12,E_SLIDER_Fireworks_Count=60,E_SLIDER_Fireworks_Velocity=3,E_CHECKBOX_FIRETIMING=1,E_CHOICE_FIRETIMINGTRACK=Bars,E_SLIDER_Fireworks_Fade=40,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.30,T_TEXTCTRL_Fadeout=0.50,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
-    <Effect>E_SLIDER_Pinwheel_Arms=4,E_SLIDER_Pinwheel_Speed=14,E_SLIDER_Pinwheel_Twist=90,E_SLIDER_Pinwheel_Thickness=40,E_CHOICE_Pinwheel_3D=3D,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.30,T_TEXTCTRL_Fadeout=0.30,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
-    <Effect>E_CHOICE_Ripple_Object_To_Draw=Star,E_CHOICE_Ripple_Movement=Explode,E_CHOICE_Ripple_Draw_Style=Lines Outward Ripple,E_SLIDER_Ripple_Thickness=4,E_CHOICE_Ripple_TimingTrack=Beats,E_SLIDER_Ripple_Duration=650,E_TEXTCTRL_Ripple_Cycles=1.0,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.30,T_TEXTCTRL_Fadeout=0.30,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
+    <Effect>E_CHOICE_Curtain_Edge=center,E_CHOICE_Curtain_Effect=open,E_TEXTCTRL_Curtain_Speed=1.0,E_SLIDER_Curtain_Swag=4,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.00,T_TEXTCTRL_Fadeout=0.00,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
+    <Effect>E_CHOICE_Shape_ObjectToDraw=Circle,E_SLIDER_Shape_Thickness=3,E_TEXTCTRL_Shape_Count=3,E_SLIDER_Shape_StartSize=5,E_SLIDER_Shape_Lifetime=20,E_SLIDER_Shape_Growth=30,E_CHECKBOX_Shape_FireTiming=1,E_CHOICE_Shape_FireTimingTrack=Beats,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.30,T_TEXTCTRL_Fadeout=0.30,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
+    <Effect>E_SLIDER_Pinwheel_Arms=4,E_SLIDER_Pinwheel_Speed=14,E_SLIDER_Pinwheel_Twist=90,E_SLIDER_Pinwheel_Thickness=40,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.30,T_TEXTCTRL_Fadeout=0.30,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
+    <Effect>E_SLIDER_Bars_BarCount=3,E_TEXTCTRL_Bars_Cycles=4.0,E_CHOICE_Bars_Direction=Left,E_CHECKBOX_Bars_Gradient=1,E_CHECKBOX_Bars_3D=1,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.30,T_TEXTCTRL_Fadeout=0.30,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
     <Effect>E_TEXTCTRL_Text=Vincent Antone,E_CHOICE_Text_Font=10-12x12 Bold,E_CHOICE_Text_Dir=left,E_TEXTCTRL_Text_Speed=14,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.30,T_TEXTCTRL_Fadeout=0.30,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
     <Effect>E_TEXTCTRL_Text=CRUISIN',E_CHOICE_Text_Font=12-15x15 Bold,E_CHOICE_Text_Dir=left,E_TEXTCTRL_Text_Speed=14,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.30,T_TEXTCTRL_Fadeout=0.30,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
     <Effect>E_CHOICE_VUMeter_Type=Spectrogram Peak,E_SLIDER_VUMeter_Bars=15,E_SLIDER_VUMeter_Sensitivity=75,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.30,T_TEXTCTRL_Fadeout=0.30,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
@@ -80,7 +86,8 @@
     <Effect>E_TEXTCTRL_Text=Happy,E_CHOICE_Text_Font=7-7x9 Bold,E_CHOICE_Text_Dir=none,E_CHECKBOX_TextToCenter=1,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.50,T_TEXTCTRL_Fadeout=0.50,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
     <Effect>E_TEXTCTRL_Text=Holidays,E_CHOICE_Text_Font=7-7x9 Bold,E_CHOICE_Text_Dir=none,E_CHECKBOX_TextToCenter=1,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.50,T_TEXTCTRL_Fadeout=0.50,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
     <Effect>E_TEXTCTRL_Text=Merry Christmas,E_CHOICE_Text_Font=10-12x12 Bold,E_CHOICE_Text_Dir=left,E_TEXTCTRL_Text_Speed=14,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.50,T_TEXTCTRL_Fadeout=2.00,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
-    <Effect>E_SLIDER_Spirals_Count=2,E_SLIDER_Spirals_Rotation=20,E_SLIDER_Spirals_Thickness=70,E_TEXTCTRL_Spirals_Movement=4.0,E_CHECKBOX_Spirals_Blend=1,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.50,T_TEXTCTRL_Fadeout=0.50,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
+    <Effect>E_CHOICE_Plasma_Color=Normal,E_SLIDER_Plasma_Style=3,E_SLIDER_Plasma_Line_Density=2,E_SLIDER_Plasma_Speed=10,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.50,T_TEXTCTRL_Fadeout=0.50,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
+    <Effect>E_TEXTCTRL_ColorWash_Cycles=3.0,E_CHECKBOX_ColorWash_HFade=1,E_CHECKBOX_ColorWash_CircularPalette=1,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.50,T_TEXTCTRL_Fadeout=0.50,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
     <Effect>E_CHOICE_Plasma_Color=Normal,E_SLIDER_Plasma_Style=2,E_SLIDER_Plasma_Line_Density=2,E_SLIDER_Plasma_Speed=12,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.50,T_TEXTCTRL_Fadeout=0.50,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
     <Effect>E_SLIDER_Snowflakes_Count=8,E_SLIDER_Snowflakes_Type=3,E_SLIDER_Snowflakes_Speed=6,E_CHOICE_Falling=Falling,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=1.00,T_TEXTCTRL_Fadeout=1.00,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
     <Effect>E_SLIDER_Twinkle_Count=4,E_SLIDER_Twinkle_Steps=50,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=3.00,T_TEXTCTRL_Fadeout=0.50,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
@@ -97,7 +104,7 @@
     <Effect>E_CHOICE_Butterfly_Colors=Palette,E_SLIDER_Butterfly_Style=3,E_SLIDER_Butterfly_Chunks=2,E_SLIDER_Butterfly_Speed=20,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.30,T_TEXTCTRL_Fadeout=0.30,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade,B_CHOICE_BufferTransform=Flip Horizontal</Effect>
     <Effect>E_CHOICE_VUMeter_Type=Spectrogram Peak,E_SLIDER_VUMeter_Bars=11,E_SLIDER_VUMeter_Sensitivity=75,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.30,T_TEXTCTRL_Fadeout=0.30,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade,B_CHOICE_BufferTransform=Flip Horizontal</Effect>
     <Effect>E_SLIDER_Pinwheel_Arms=3,E_SLIDER_Pinwheel_Speed=12,E_SLIDER_Pinwheel_Twist=60,E_SLIDER_Pinwheel_Thickness=50,E_CHOICE_Pinwheel_3D=3D,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.30,T_TEXTCTRL_Fadeout=0.30,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade,B_CHOICE_BufferTransform=Flip Horizontal</Effect>
-    <Effect>E_CHOICE_VUMeter_Type=Timing Event Pulse,E_CHOICE_VUMeter_TimingTrack=Bars,T_CHOICE_LayerMethod=Max,T_TEXTCTRL_Fadein=0.00,T_TEXTCTRL_Fadeout=0.00,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
+    <Effect>E_CHOICE_VUMeter_Type=Timing Event Pulse,E_CHOICE_VUMeter_TimingTrack=Bars,T_CHOICE_LayerMethod=Additive,T_TEXTCTRL_Fadein=0.00,T_TEXTCTRL_Fadeout=0.00,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
     <Effect>E_SLIDER_Marquee_Band_Size=6,E_SLIDER_Marquee_Skip_Size=6,E_SLIDER_Marquee_Speed=14,E_SLIDER_Marquee_Thickness=100,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.00,T_TEXTCTRL_Fadeout=0.00,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade,B_CHOICE_BufferStyle=Single Line</Effect>
     <Effect>E_CHOICE_Meteors_Type=Palette,E_CHOICE_Meteors_Effect=Icicles + bkg,E_SLIDER_Meteors_Count=30,E_SLIDER_Meteors_Length=40,E_SLIDER_Meteors_Speed=14,E_CHECKBOX_Meteors_UseMusic=1,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.30,T_TEXTCTRL_Fadeout=0.50,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
     <Effect>E_CHOICE_SingleStrand_Colors=Palette,E_SLIDER_Number_Chases=6,E_SLIDER_Color_Mix1=25,E_TEXTCTRL_Chase_Rotations=4.0,E_CHOICE_Chase_Type1=Dual Chase,E_CHOICE_Fade_Type=Head and Tail,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.30,T_TEXTCTRL_Fadeout=0.30,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade,B_CHOICE_BufferStyle=Single Line</Effect>
@@ -120,7 +127,6 @@
     <Effect>E_CHOICE_SingleStrand_Colors=Palette,E_SLIDER_Number_Chases=3,E_SLIDER_Color_Mix1=30,E_TEXTCTRL_Chase_Rotations=2.0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_Fade_Type=From Tail,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.30,T_TEXTCTRL_Fadeout=0.30,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade,B_CHOICE_BufferStyle=Per Model Single Line</Effect>
     <Effect>E_CHOICE_VUMeter_Type=Timing Event Pulse,E_CHOICE_VUMeter_TimingTrack=Beats,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.00,T_TEXTCTRL_Fadeout=0.00,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade,B_CHOICE_BufferStyle=Per Model Single Line</Effect>
     <Effect>E_SLIDER_Marquee_Band_Size=3,E_SLIDER_Marquee_Skip_Size=3,E_SLIDER_Marquee_Speed=8,E_SLIDER_Marquee_Thickness=100,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.30,T_TEXTCTRL_Fadeout=0.30,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade,B_CHOICE_BufferStyle=Per Model Single Line</Effect>
-    <Effect>E_CHOICE_VUMeter_Type=Timing Event Alternate Timed Sweep,E_CHOICE_VUMeter_TimingTrack=Beats,E_SLIDER_VUMeter_Bars=8,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.30,T_TEXTCTRL_Fadeout=0.30,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade,B_CHOICE_BufferStyle=Single Line</Effect>
     <Effect>E_CHOICE_SingleStrand_Colors=Palette,E_SLIDER_Number_Chases=2,E_SLIDER_Color_Mix1=40,E_TEXTCTRL_Chase_Rotations=8.0,E_CHOICE_Chase_Type1=Bounce from Left,E_CHOICE_Fade_Type=From Tail,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.30,T_TEXTCTRL_Fadeout=0.30,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade,B_CHOICE_BufferStyle=Per Model Single Line</Effect>
     <Effect>E_SLIDER_Bars_BarCount=5,E_TEXTCTRL_Bars_Cycles=8.0,E_CHOICE_Bars_Direction=Left,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=0.30,T_TEXTCTRL_Fadeout=0.30,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade,B_CHOICE_BufferStyle=Single Line</Effect>
     <Effect>E_SLIDER_Twinkle_Count=6,E_SLIDER_Twinkle_Steps=40,T_CHOICE_LayerMethod=Normal,T_TEXTCTRL_Fadein=1.50,T_TEXTCTRL_Fadeout=1.00,T_CHOICE_In_Transition_Type=Fade,T_CHOICE_Out_Transition_Type=Fade</Effect>
@@ -644,45 +650,45 @@
     </Element>
     <Element type="model" name="Tree">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="21350000" endTime="21950000" palette="0"/>
-        <Effect ref="1" name="VU Meter" startTime="31650000" endTime="42000000" palette="1"/>
-        <Effect ref="1" name="VU Meter" startTime="62650000" endTime="72950000" palette="1"/>
-        <Effect ref="1" name="VU Meter" startTime="72950000" endTime="83300000" palette="1"/>
-        <Effect ref="2" name="Twinkle" startTime="83300000" endTime="102100000" palette="2"/>
-        <Effect ref="0" name="On" startTime="102100000" endTime="102700000" palette="0"/>
-        <Effect ref="1" name="VU Meter" startTime="111650000" endTime="121950000" palette="1"/>
-        <Effect ref="1" name="VU Meter" startTime="121950000" endTime="132300000" palette="1"/>
-        <Effect ref="1" name="VU Meter" startTime="132300000" endTime="142650000" palette="1"/>
-        <Effect ref="1" name="VU Meter" startTime="142650000" endTime="152950000" palette="1"/>
-        <Effect ref="2" name="Twinkle" startTime="165200000" endTime="181350000" palette="2"/>
-        <Effect ref="0" name="On" startTime="181350000" endTime="181950000" palette="0"/>
-        <Effect ref="1" name="VU Meter" startTime="212300000" endTime="222650000" palette="1"/>
-        <Effect ref="1" name="VU Meter" startTime="222650000" endTime="227800000" palette="1"/>
+        <Effect ref="0" name="On" startTime="21350" endTime="21950" palette="0"/>
+        <Effect ref="1" name="VU Meter" startTime="31650" endTime="42000" palette="1"/>
+        <Effect ref="1" name="VU Meter" startTime="62650" endTime="72950" palette="1"/>
+        <Effect ref="1" name="VU Meter" startTime="72950" endTime="83300" palette="1"/>
+        <Effect ref="2" name="Twinkle" startTime="83300" endTime="102100" palette="2"/>
+        <Effect ref="0" name="On" startTime="102100" endTime="102700" palette="0"/>
+        <Effect ref="1" name="VU Meter" startTime="111650" endTime="121950" palette="1"/>
+        <Effect ref="1" name="VU Meter" startTime="121950" endTime="132300" palette="1"/>
+        <Effect ref="1" name="VU Meter" startTime="132300" endTime="142650" palette="1"/>
+        <Effect ref="1" name="VU Meter" startTime="142650" endTime="152950" palette="1"/>
+        <Effect ref="2" name="Twinkle" startTime="165200" endTime="181350" palette="2"/>
+        <Effect ref="0" name="On" startTime="181350" endTime="181950" palette="0"/>
+        <Effect ref="1" name="VU Meter" startTime="212300" endTime="222650" palette="1"/>
+        <Effect ref="1" name="VU Meter" startTime="222650" endTime="227800" palette="1"/>
       </EffectLayer>
       <EffectLayer>
-        <Effect ref="3" name="Twinkle" startTime="0" endTime="14900000" palette="3"/>
-        <Effect ref="4" name="Meteors" startTime="14900000" endTime="21350000" palette="4"/>
-        <Effect ref="5" name="Bars" startTime="21350000" endTime="31650000" palette="5"/>
-        <Effect ref="6" name="Spirals" startTime="31650000" endTime="42000000" palette="6"/>
-        <Effect ref="7" name="Meteors" startTime="42000000" endTime="52300000" palette="4"/>
-        <Effect ref="8" name="Fire" startTime="52300000" endTime="62650000" palette="4"/>
-        <Effect ref="9" name="Butterfly" startTime="62650000" endTime="72950000" palette="5"/>
-        <Effect ref="10" name="Color Wash" startTime="72950000" endTime="83300000" palette="7"/>
-        <Effect ref="11" name="Spirals" startTime="83300000" endTime="102100000" palette="8"/>
-        <Effect ref="8" name="Fire" startTime="102100000" endTime="111650000" palette="4"/>
-        <Effect ref="9" name="Butterfly" startTime="111650000" endTime="121950000" palette="5"/>
-        <Effect ref="10" name="Color Wash" startTime="121950000" endTime="132300000" palette="9"/>
-        <Effect ref="5" name="Bars" startTime="132300000" endTime="142650000" palette="6"/>
-        <Effect ref="6" name="Spirals" startTime="142650000" endTime="152950000" palette="10"/>
-        <Effect ref="7" name="Meteors" startTime="152950000" endTime="163300000" palette="5"/>
-        <Effect ref="8" name="Fire" startTime="163300000" endTime="165200000" palette="4"/>
-        <Effect ref="11" name="Spirals" startTime="165200000" endTime="181350000" palette="8"/>
-        <Effect ref="6" name="Spirals" startTime="181350000" endTime="191700000" palette="5"/>
-        <Effect ref="7" name="Meteors" startTime="191700000" endTime="202000000" palette="4"/>
-        <Effect ref="8" name="Fire" startTime="202000000" endTime="212300000" palette="4"/>
-        <Effect ref="9" name="Butterfly" startTime="212300000" endTime="222650000" palette="6"/>
-        <Effect ref="12" name="Color Wash" startTime="222650000" endTime="227800000" palette="11"/>
-        <Effect ref="13" name="Color Wash" startTime="227800000" endTime="234850000" palette="12"/>
+        <Effect ref="3" name="Twinkle" startTime="0" endTime="14900" palette="3"/>
+        <Effect ref="4" name="Meteors" startTime="14900" endTime="21350" palette="4"/>
+        <Effect ref="5" name="Bars" startTime="21350" endTime="31650" palette="5"/>
+        <Effect ref="6" name="Spirals" startTime="31650" endTime="42000" palette="6"/>
+        <Effect ref="7" name="Meteors" startTime="42000" endTime="52300" palette="4"/>
+        <Effect ref="8" name="Fire" startTime="52300" endTime="62650" palette="4"/>
+        <Effect ref="9" name="Butterfly" startTime="62650" endTime="72950" palette="5"/>
+        <Effect ref="10" name="Color Wash" startTime="72950" endTime="83300" palette="7"/>
+        <Effect ref="11" name="Spirals" startTime="83300" endTime="102100" palette="8"/>
+        <Effect ref="8" name="Fire" startTime="102100" endTime="111650" palette="4"/>
+        <Effect ref="9" name="Butterfly" startTime="111650" endTime="121950" palette="5"/>
+        <Effect ref="10" name="Color Wash" startTime="121950" endTime="132300" palette="9"/>
+        <Effect ref="5" name="Bars" startTime="132300" endTime="142650" palette="6"/>
+        <Effect ref="6" name="Spirals" startTime="142650" endTime="152950" palette="10"/>
+        <Effect ref="7" name="Meteors" startTime="152950" endTime="163300" palette="5"/>
+        <Effect ref="8" name="Fire" startTime="163300" endTime="165200" palette="4"/>
+        <Effect ref="11" name="Spirals" startTime="165200" endTime="181350" palette="8"/>
+        <Effect ref="6" name="Spirals" startTime="181350" endTime="191700" palette="11"/>
+        <Effect ref="7" name="Meteors" startTime="191700" endTime="202000" palette="4"/>
+        <Effect ref="8" name="Fire" startTime="202000" endTime="212300" palette="4"/>
+        <Effect ref="9" name="Butterfly" startTime="212300" endTime="222650" palette="6"/>
+        <Effect ref="12" name="Color Wash" startTime="222650" endTime="227800" palette="12"/>
+        <Effect ref="13" name="Color Wash" startTime="227800" endTime="234850" palette="13"/>
       </EffectLayer>
       <EffectLayer>
 
@@ -690,79 +696,81 @@
     </Element>
     <Element type="model" name="Matrix - Front Bay">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="21350000" endTime="21950000" palette="0"/>
-        <Effect ref="0" name="On" startTime="102100000" endTime="102700000" palette="0"/>
-        <Effect ref="0" name="On" startTime="181350000" endTime="181950000" palette="0"/>
+        <Effect ref="0" name="On" startTime="21350" endTime="21950" palette="0"/>
+        <Effect ref="0" name="On" startTime="102100" endTime="102700" palette="0"/>
+        <Effect ref="0" name="On" startTime="181350" endTime="181950" palette="0"/>
       </EffectLayer>
       <EffectLayer>
-        <Effect ref="14" name="Text" startTime="1000000" endTime="14900000" palette="13"/>
-        <Effect ref="15" name="Shockwave" startTime="14900000" endTime="21350000" palette="13"/>
-        <Effect ref="16" name="Fireworks" startTime="21350000" endTime="31650000" palette="5"/>
-        <Effect ref="17" name="Pinwheel" startTime="31650000" endTime="42000000" palette="6"/>
-        <Effect ref="18" name="Ripple" startTime="42000000" endTime="52300000" palette="4"/>
-        <Effect ref="19" name="Text" startTime="52300000" endTime="62650000" palette="0"/>
-        <Effect ref="20" name="Text" startTime="62650000" endTime="72950000" palette="13"/>
-        <Effect ref="21" name="VU Meter" startTime="72950000" endTime="83300000" palette="6"/>
-        <Effect ref="22" name="Text" startTime="83300000" endTime="92700000" palette="14"/>
-        <Effect ref="23" name="Text" startTime="92700000" endTime="102100000" palette="14"/>
-        <Effect ref="19" name="Text" startTime="102100000" endTime="111650000" palette="0"/>
-        <Effect ref="20" name="Text" startTime="111650000" endTime="121950000" palette="13"/>
-        <Effect ref="21" name="VU Meter" startTime="121950000" endTime="132300000" palette="15"/>
-        <Effect ref="16" name="Fireworks" startTime="132300000" endTime="142650000" palette="6"/>
-        <Effect ref="17" name="Pinwheel" startTime="142650000" endTime="152950000" palette="10"/>
-        <Effect ref="18" name="Ripple" startTime="152950000" endTime="163300000" palette="5"/>
-        <Effect ref="19" name="Text" startTime="163300000" endTime="165200000" palette="0"/>
-        <Effect ref="24" name="Text" startTime="165200000" endTime="173275000" palette="14"/>
-        <Effect ref="25" name="Text" startTime="173275000" endTime="181350000" palette="14"/>
-        <Effect ref="17" name="Pinwheel" startTime="181350000" endTime="191700000" palette="5"/>
-        <Effect ref="18" name="Ripple" startTime="191700000" endTime="202000000" palette="4"/>
-        <Effect ref="19" name="Text" startTime="202000000" endTime="212300000" palette="0"/>
-        <Effect ref="20" name="Text" startTime="212300000" endTime="222650000" palette="13"/>
-        <Effect ref="21" name="VU Meter" startTime="222650000" endTime="227800000" palette="5"/>
-        <Effect ref="26" name="Text" startTime="227800000" endTime="234850000" palette="13"/>
+        <Effect ref="14" name="Text" startTime="1000" endTime="14900" palette="14"/>
+        <Effect ref="15" name="Curtain" startTime="14900" endTime="21350" palette="4"/>
+        <Effect ref="16" name="Shape" startTime="21350" endTime="31650" palette="15"/>
+        <Effect ref="17" name="Pinwheel" startTime="31650" endTime="42000" palette="6"/>
+        <Effect ref="18" name="Bars" startTime="42000" endTime="52300" palette="4"/>
+        <Effect ref="19" name="Text" startTime="52300" endTime="62650" palette="0"/>
+        <Effect ref="20" name="Text" startTime="62650" endTime="72950" palette="14"/>
+        <Effect ref="21" name="VU Meter" startTime="72950" endTime="83300" palette="6"/>
+        <Effect ref="22" name="Text" startTime="83300" endTime="92700" palette="16"/>
+        <Effect ref="23" name="Text" startTime="92700" endTime="102100" palette="16"/>
+        <Effect ref="19" name="Text" startTime="102100" endTime="111650" palette="0"/>
+        <Effect ref="20" name="Text" startTime="111650" endTime="121950" palette="14"/>
+        <Effect ref="21" name="VU Meter" startTime="121950" endTime="132300" palette="17"/>
+        <Effect ref="16" name="Shape" startTime="132300" endTime="142650" palette="18"/>
+        <Effect ref="17" name="Pinwheel" startTime="142650" endTime="152950" palette="19"/>
+        <Effect ref="18" name="Bars" startTime="152950" endTime="163300" palette="5"/>
+        <Effect ref="19" name="Text" startTime="163300" endTime="165200" palette="0"/>
+        <Effect ref="24" name="Text" startTime="165200" endTime="173300" palette="16"/>
+        <Effect ref="25" name="Text" startTime="173300" endTime="181350" palette="16"/>
+        <Effect ref="17" name="Pinwheel" startTime="181350" endTime="191700" palette="5"/>
+        <Effect ref="18" name="Bars" startTime="191700" endTime="202000" palette="4"/>
+        <Effect ref="19" name="Text" startTime="202000" endTime="212300" palette="0"/>
+        <Effect ref="20" name="Text" startTime="212300" endTime="222650" palette="14"/>
+        <Effect ref="21" name="VU Meter" startTime="222650" endTime="227800" palette="5"/>
+        <Effect ref="26" name="Text" startTime="227800" endTime="234850" palette="14"/>
       </EffectLayer>
       <EffectLayer>
-        <Effect ref="27" name="Spirals" startTime="52300000" endTime="62650000" palette="16"/>
-        <Effect ref="28" name="Plasma" startTime="62650000" endTime="72950000" palette="17"/>
-        <Effect ref="29" name="Snowflakes" startTime="83300000" endTime="102100000" palette="18"/>
-        <Effect ref="27" name="Spirals" startTime="102100000" endTime="111650000" palette="16"/>
-        <Effect ref="28" name="Plasma" startTime="111650000" endTime="121950000" palette="17"/>
-        <Effect ref="27" name="Spirals" startTime="163300000" endTime="165200000" palette="19"/>
-        <Effect ref="29" name="Snowflakes" startTime="165200000" endTime="181350000" palette="18"/>
-        <Effect ref="27" name="Spirals" startTime="202000000" endTime="212300000" palette="16"/>
-        <Effect ref="28" name="Plasma" startTime="212300000" endTime="222650000" palette="20"/>
+        <Effect ref="27" name="Plasma" startTime="21350" endTime="31650" palette="20"/>
+        <Effect ref="28" name="Color Wash" startTime="52300" endTime="62650" palette="21"/>
+        <Effect ref="29" name="Plasma" startTime="62650" endTime="72950" palette="22"/>
+        <Effect ref="30" name="Snowflakes" startTime="83300" endTime="102100" palette="23"/>
+        <Effect ref="28" name="Color Wash" startTime="102100" endTime="111650" palette="21"/>
+        <Effect ref="29" name="Plasma" startTime="111650" endTime="121950" palette="22"/>
+        <Effect ref="27" name="Plasma" startTime="132300" endTime="142650" palette="24"/>
+        <Effect ref="28" name="Color Wash" startTime="163300" endTime="165200" palette="25"/>
+        <Effect ref="30" name="Snowflakes" startTime="165200" endTime="181350" palette="23"/>
+        <Effect ref="28" name="Color Wash" startTime="202000" endTime="212300" palette="21"/>
+        <Effect ref="29" name="Plasma" startTime="212300" endTime="222650" palette="26"/>
       </EffectLayer>
     </Element>
     <Element type="model" name="Matrix - Upper Left">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="21350000" endTime="21950000" palette="0"/>
-        <Effect ref="0" name="On" startTime="102100000" endTime="102700000" palette="0"/>
-        <Effect ref="0" name="On" startTime="181350000" endTime="181950000" palette="0"/>
+        <Effect ref="0" name="On" startTime="21350" endTime="21950" palette="0"/>
+        <Effect ref="0" name="On" startTime="102100" endTime="102700" palette="0"/>
+        <Effect ref="0" name="On" startTime="181350" endTime="181950" palette="0"/>
       </EffectLayer>
       <EffectLayer>
-        <Effect ref="30" name="Twinkle" startTime="0" endTime="14900000" palette="21"/>
-        <Effect ref="31" name="Curtain" startTime="14900000" endTime="21350000" palette="4"/>
-        <Effect ref="32" name="Spirals" startTime="21350000" endTime="31650000" palette="5"/>
-        <Effect ref="33" name="Butterfly" startTime="31650000" endTime="42000000" palette="6"/>
-        <Effect ref="34" name="VU Meter" startTime="42000000" endTime="52300000" palette="4"/>
-        <Effect ref="35" name="Meteors" startTime="52300000" endTime="62650000" palette="10"/>
-        <Effect ref="36" name="Pinwheel" startTime="62650000" endTime="72950000" palette="5"/>
-        <Effect ref="37" name="Fire" startTime="72950000" endTime="83300000" palette="4"/>
-        <Effect ref="38" name="Snowflakes" startTime="83300000" endTime="102100000" palette="14"/>
-        <Effect ref="35" name="Meteors" startTime="102100000" endTime="111650000" palette="10"/>
-        <Effect ref="36" name="Pinwheel" startTime="111650000" endTime="121950000" palette="5"/>
-        <Effect ref="37" name="Fire" startTime="121950000" endTime="132300000" palette="4"/>
-        <Effect ref="32" name="Spirals" startTime="132300000" endTime="142650000" palette="6"/>
-        <Effect ref="33" name="Butterfly" startTime="142650000" endTime="152950000" palette="10"/>
-        <Effect ref="34" name="VU Meter" startTime="152950000" endTime="163300000" palette="5"/>
-        <Effect ref="35" name="Meteors" startTime="163300000" endTime="165200000" palette="15"/>
-        <Effect ref="38" name="Snowflakes" startTime="165200000" endTime="181350000" palette="14"/>
-        <Effect ref="33" name="Butterfly" startTime="181350000" endTime="191700000" palette="5"/>
-        <Effect ref="34" name="VU Meter" startTime="191700000" endTime="202000000" palette="4"/>
-        <Effect ref="35" name="Meteors" startTime="202000000" endTime="212300000" palette="10"/>
-        <Effect ref="36" name="Pinwheel" startTime="212300000" endTime="222650000" palette="6"/>
-        <Effect ref="37" name="Fire" startTime="222650000" endTime="227800000" palette="4"/>
-        <Effect ref="13" name="Color Wash" startTime="227800000" endTime="234850000" palette="12"/>
+        <Effect ref="31" name="Twinkle" startTime="0" endTime="14900" palette="27"/>
+        <Effect ref="32" name="Curtain" startTime="14900" endTime="21350" palette="4"/>
+        <Effect ref="33" name="Spirals" startTime="21350" endTime="31650" palette="5"/>
+        <Effect ref="34" name="Butterfly" startTime="31650" endTime="42000" palette="6"/>
+        <Effect ref="35" name="VU Meter" startTime="42000" endTime="52300" palette="4"/>
+        <Effect ref="36" name="Meteors" startTime="52300" endTime="62650" palette="19"/>
+        <Effect ref="37" name="Pinwheel" startTime="62650" endTime="72950" palette="5"/>
+        <Effect ref="38" name="Fire" startTime="72950" endTime="83300" palette="4"/>
+        <Effect ref="39" name="Snowflakes" startTime="83300" endTime="102100" palette="16"/>
+        <Effect ref="36" name="Meteors" startTime="102100" endTime="111650" palette="19"/>
+        <Effect ref="37" name="Pinwheel" startTime="111650" endTime="121950" palette="5"/>
+        <Effect ref="38" name="Fire" startTime="121950" endTime="132300" palette="4"/>
+        <Effect ref="33" name="Spirals" startTime="132300" endTime="142650" palette="6"/>
+        <Effect ref="34" name="Butterfly" startTime="142650" endTime="152950" palette="19"/>
+        <Effect ref="35" name="VU Meter" startTime="152950" endTime="163300" palette="5"/>
+        <Effect ref="36" name="Meteors" startTime="163300" endTime="165200" palette="17"/>
+        <Effect ref="39" name="Snowflakes" startTime="165200" endTime="181350" palette="16"/>
+        <Effect ref="34" name="Butterfly" startTime="181350" endTime="191700" palette="5"/>
+        <Effect ref="35" name="VU Meter" startTime="191700" endTime="202000" palette="4"/>
+        <Effect ref="36" name="Meteors" startTime="202000" endTime="212300" palette="19"/>
+        <Effect ref="37" name="Pinwheel" startTime="212300" endTime="222650" palette="6"/>
+        <Effect ref="38" name="Fire" startTime="222650" endTime="227800" palette="4"/>
+        <Effect ref="13" name="Color Wash" startTime="227800" endTime="234850" palette="13"/>
       </EffectLayer>
       <EffectLayer>
 
@@ -770,34 +778,34 @@
     </Element>
     <Element type="model" name="Matrix - Upper Right">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="21350000" endTime="21950000" palette="0"/>
-        <Effect ref="0" name="On" startTime="102100000" endTime="102700000" palette="0"/>
-        <Effect ref="0" name="On" startTime="181350000" endTime="181950000" palette="0"/>
+        <Effect ref="0" name="On" startTime="21350" endTime="21950" palette="0"/>
+        <Effect ref="0" name="On" startTime="102100" endTime="102700" palette="0"/>
+        <Effect ref="0" name="On" startTime="181350" endTime="181950" palette="0"/>
       </EffectLayer>
       <EffectLayer>
-        <Effect ref="30" name="Twinkle" startTime="0" endTime="14900000" palette="21"/>
-        <Effect ref="39" name="Curtain" startTime="14900000" endTime="21350000" palette="4"/>
-        <Effect ref="40" name="Spirals" startTime="21350000" endTime="31650000" palette="5"/>
-        <Effect ref="41" name="Butterfly" startTime="31650000" endTime="42000000" palette="6"/>
-        <Effect ref="42" name="VU Meter" startTime="42000000" endTime="52300000" palette="4"/>
-        <Effect ref="35" name="Meteors" startTime="52300000" endTime="62650000" palette="10"/>
-        <Effect ref="43" name="Pinwheel" startTime="62650000" endTime="72950000" palette="5"/>
-        <Effect ref="37" name="Fire" startTime="72950000" endTime="83300000" palette="4"/>
-        <Effect ref="38" name="Snowflakes" startTime="83300000" endTime="102100000" palette="14"/>
-        <Effect ref="35" name="Meteors" startTime="102100000" endTime="111650000" palette="10"/>
-        <Effect ref="43" name="Pinwheel" startTime="111650000" endTime="121950000" palette="5"/>
-        <Effect ref="37" name="Fire" startTime="121950000" endTime="132300000" palette="4"/>
-        <Effect ref="40" name="Spirals" startTime="132300000" endTime="142650000" palette="6"/>
-        <Effect ref="41" name="Butterfly" startTime="142650000" endTime="152950000" palette="10"/>
-        <Effect ref="42" name="VU Meter" startTime="152950000" endTime="163300000" palette="5"/>
-        <Effect ref="35" name="Meteors" startTime="163300000" endTime="165200000" palette="15"/>
-        <Effect ref="38" name="Snowflakes" startTime="165200000" endTime="181350000" palette="14"/>
-        <Effect ref="41" name="Butterfly" startTime="181350000" endTime="191700000" palette="5"/>
-        <Effect ref="42" name="VU Meter" startTime="191700000" endTime="202000000" palette="4"/>
-        <Effect ref="35" name="Meteors" startTime="202000000" endTime="212300000" palette="10"/>
-        <Effect ref="43" name="Pinwheel" startTime="212300000" endTime="222650000" palette="6"/>
-        <Effect ref="37" name="Fire" startTime="222650000" endTime="227800000" palette="4"/>
-        <Effect ref="13" name="Color Wash" startTime="227800000" endTime="234850000" palette="12"/>
+        <Effect ref="31" name="Twinkle" startTime="0" endTime="14900" palette="27"/>
+        <Effect ref="40" name="Curtain" startTime="14900" endTime="21350" palette="4"/>
+        <Effect ref="41" name="Spirals" startTime="21350" endTime="31650" palette="5"/>
+        <Effect ref="42" name="Butterfly" startTime="31650" endTime="42000" palette="6"/>
+        <Effect ref="43" name="VU Meter" startTime="42000" endTime="52300" palette="4"/>
+        <Effect ref="36" name="Meteors" startTime="52300" endTime="62650" palette="19"/>
+        <Effect ref="44" name="Pinwheel" startTime="62650" endTime="72950" palette="5"/>
+        <Effect ref="38" name="Fire" startTime="72950" endTime="83300" palette="4"/>
+        <Effect ref="39" name="Snowflakes" startTime="83300" endTime="102100" palette="16"/>
+        <Effect ref="36" name="Meteors" startTime="102100" endTime="111650" palette="19"/>
+        <Effect ref="44" name="Pinwheel" startTime="111650" endTime="121950" palette="5"/>
+        <Effect ref="38" name="Fire" startTime="121950" endTime="132300" palette="4"/>
+        <Effect ref="41" name="Spirals" startTime="132300" endTime="142650" palette="6"/>
+        <Effect ref="42" name="Butterfly" startTime="142650" endTime="152950" palette="19"/>
+        <Effect ref="43" name="VU Meter" startTime="152950" endTime="163300" palette="5"/>
+        <Effect ref="36" name="Meteors" startTime="163300" endTime="165200" palette="17"/>
+        <Effect ref="39" name="Snowflakes" startTime="165200" endTime="181350" palette="16"/>
+        <Effect ref="42" name="Butterfly" startTime="181350" endTime="191700" palette="5"/>
+        <Effect ref="43" name="VU Meter" startTime="191700" endTime="202000" palette="4"/>
+        <Effect ref="36" name="Meteors" startTime="202000" endTime="212300" palette="19"/>
+        <Effect ref="44" name="Pinwheel" startTime="212300" endTime="222650" palette="6"/>
+        <Effect ref="38" name="Fire" startTime="222650" endTime="227800" palette="4"/>
+        <Effect ref="13" name="Color Wash" startTime="227800" endTime="234850" palette="13"/>
       </EffectLayer>
       <EffectLayer>
 
@@ -805,41 +813,41 @@
     </Element>
     <Element type="model" name="ICICLES GRP">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="21350000" endTime="21950000" palette="0"/>
-        <Effect ref="44" name="VU Meter" startTime="52300000" endTime="62650000" palette="22"/>
-        <Effect ref="44" name="VU Meter" startTime="72950000" endTime="83300000" palette="22"/>
-        <Effect ref="0" name="On" startTime="102100000" endTime="102700000" palette="0"/>
-        <Effect ref="44" name="VU Meter" startTime="121950000" endTime="132300000" palette="22"/>
-        <Effect ref="44" name="VU Meter" startTime="132300000" endTime="142650000" palette="22"/>
-        <Effect ref="44" name="VU Meter" startTime="163300000" endTime="165200000" palette="22"/>
-        <Effect ref="0" name="On" startTime="181350000" endTime="181950000" palette="0"/>
-        <Effect ref="44" name="VU Meter" startTime="202000000" endTime="212300000" palette="22"/>
-        <Effect ref="44" name="VU Meter" startTime="222650000" endTime="227800000" palette="22"/>
+        <Effect ref="0" name="On" startTime="21350" endTime="21950" palette="0"/>
+        <Effect ref="45" name="VU Meter" startTime="52300" endTime="62650" palette="28"/>
+        <Effect ref="45" name="VU Meter" startTime="72950" endTime="83300" palette="28"/>
+        <Effect ref="0" name="On" startTime="102100" endTime="102700" palette="0"/>
+        <Effect ref="45" name="VU Meter" startTime="121950" endTime="132300" palette="28"/>
+        <Effect ref="45" name="VU Meter" startTime="132300" endTime="142650" palette="28"/>
+        <Effect ref="45" name="VU Meter" startTime="163300" endTime="165200" palette="28"/>
+        <Effect ref="0" name="On" startTime="181350" endTime="181950" palette="0"/>
+        <Effect ref="45" name="VU Meter" startTime="202000" endTime="212300" palette="28"/>
+        <Effect ref="45" name="VU Meter" startTime="222650" endTime="227800" palette="28"/>
       </EffectLayer>
       <EffectLayer>
-        <Effect ref="3" name="Twinkle" startTime="0" endTime="14900000" palette="23"/>
-        <Effect ref="45" name="Marquee" startTime="14900000" endTime="21350000" palette="4"/>
-        <Effect ref="46" name="Meteors" startTime="21350000" endTime="31650000" palette="5"/>
-        <Effect ref="47" name="SingleStrand" startTime="31650000" endTime="42000000" palette="6"/>
-        <Effect ref="48" name="VU Meter" startTime="42000000" endTime="52300000" palette="4"/>
-        <Effect ref="49" name="Marquee" startTime="52300000" endTime="62650000" palette="10"/>
-        <Effect ref="50" name="Bars" startTime="62650000" endTime="72950000" palette="5"/>
-        <Effect ref="51" name="Color Wash" startTime="72950000" endTime="83300000" palette="24"/>
-        <Effect ref="52" name="Meteors" startTime="83300000" endTime="102100000" palette="14"/>
-        <Effect ref="49" name="Marquee" startTime="102100000" endTime="111650000" palette="10"/>
-        <Effect ref="50" name="Bars" startTime="111650000" endTime="121950000" palette="5"/>
-        <Effect ref="51" name="Color Wash" startTime="121950000" endTime="132300000" palette="25"/>
-        <Effect ref="46" name="Meteors" startTime="132300000" endTime="142650000" palette="6"/>
-        <Effect ref="47" name="SingleStrand" startTime="142650000" endTime="152950000" palette="10"/>
-        <Effect ref="48" name="VU Meter" startTime="152950000" endTime="163300000" palette="5"/>
-        <Effect ref="49" name="Marquee" startTime="163300000" endTime="165200000" palette="15"/>
-        <Effect ref="52" name="Meteors" startTime="165200000" endTime="181350000" palette="14"/>
-        <Effect ref="47" name="SingleStrand" startTime="181350000" endTime="191700000" palette="5"/>
-        <Effect ref="48" name="VU Meter" startTime="191700000" endTime="202000000" palette="4"/>
-        <Effect ref="49" name="Marquee" startTime="202000000" endTime="212300000" palette="10"/>
-        <Effect ref="50" name="Bars" startTime="212300000" endTime="222650000" palette="6"/>
-        <Effect ref="53" name="Color Wash" startTime="222650000" endTime="227800000" palette="26"/>
-        <Effect ref="13" name="Color Wash" startTime="227800000" endTime="234850000" palette="27"/>
+        <Effect ref="3" name="Twinkle" startTime="0" endTime="14900" palette="29"/>
+        <Effect ref="46" name="Marquee" startTime="14900" endTime="21350" palette="4"/>
+        <Effect ref="47" name="Meteors" startTime="21350" endTime="31650" palette="5"/>
+        <Effect ref="48" name="SingleStrand" startTime="31650" endTime="42000" palette="6"/>
+        <Effect ref="49" name="VU Meter" startTime="42000" endTime="52300" palette="4"/>
+        <Effect ref="50" name="Marquee" startTime="52300" endTime="62650" palette="19"/>
+        <Effect ref="51" name="Bars" startTime="62650" endTime="72950" palette="5"/>
+        <Effect ref="52" name="Color Wash" startTime="72950" endTime="83300" palette="30"/>
+        <Effect ref="53" name="Meteors" startTime="83300" endTime="102100" palette="16"/>
+        <Effect ref="50" name="Marquee" startTime="102100" endTime="111650" palette="19"/>
+        <Effect ref="51" name="Bars" startTime="111650" endTime="121950" palette="5"/>
+        <Effect ref="52" name="Color Wash" startTime="121950" endTime="132300" palette="31"/>
+        <Effect ref="47" name="Meteors" startTime="132300" endTime="142650" palette="6"/>
+        <Effect ref="48" name="SingleStrand" startTime="142650" endTime="152950" palette="19"/>
+        <Effect ref="49" name="VU Meter" startTime="152950" endTime="163300" palette="5"/>
+        <Effect ref="50" name="Marquee" startTime="163300" endTime="165200" palette="17"/>
+        <Effect ref="53" name="Meteors" startTime="165200" endTime="181350" palette="16"/>
+        <Effect ref="48" name="SingleStrand" startTime="181350" endTime="191700" palette="5"/>
+        <Effect ref="49" name="VU Meter" startTime="191700" endTime="202000" palette="4"/>
+        <Effect ref="50" name="Marquee" startTime="202000" endTime="212300" palette="19"/>
+        <Effect ref="51" name="Bars" startTime="212300" endTime="222650" palette="6"/>
+        <Effect ref="54" name="Color Wash" startTime="222650" endTime="227800" palette="32"/>
+        <Effect ref="13" name="Color Wash" startTime="227800" endTime="234850" palette="33"/>
       </EffectLayer>
       <EffectLayer>
 
@@ -847,34 +855,34 @@
     </Element>
     <Element type="model" name="windows border">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="21350000" endTime="21950000" palette="0"/>
-        <Effect ref="0" name="On" startTime="102100000" endTime="102700000" palette="0"/>
-        <Effect ref="0" name="On" startTime="181350000" endTime="181950000" palette="0"/>
+        <Effect ref="0" name="On" startTime="21350" endTime="21950" palette="0"/>
+        <Effect ref="0" name="On" startTime="102100" endTime="102700" palette="0"/>
+        <Effect ref="0" name="On" startTime="181350" endTime="181950" palette="0"/>
       </EffectLayer>
       <EffectLayer>
-        <Effect ref="54" name="On" startTime="0" endTime="14900000" palette="28"/>
-        <Effect ref="55" name="Curtain" startTime="14900000" endTime="21350000" palette="4"/>
-        <Effect ref="56" name="SingleStrand" startTime="21350000" endTime="31650000" palette="5"/>
-        <Effect ref="57" name="Marquee" startTime="31650000" endTime="42000000" palette="6"/>
-        <Effect ref="58" name="VU Meter" startTime="42000000" endTime="52300000" palette="4"/>
-        <Effect ref="59" name="Bars" startTime="52300000" endTime="62650000" palette="10"/>
-        <Effect ref="60" name="Color Wash" startTime="62650000" endTime="72950000" palette="11"/>
-        <Effect ref="56" name="SingleStrand" startTime="72950000" endTime="83300000" palette="6"/>
-        <Effect ref="61" name="Color Wash" startTime="83300000" endTime="102100000" palette="29"/>
-        <Effect ref="62" name="Bars" startTime="102100000" endTime="111650000" palette="10"/>
-        <Effect ref="60" name="Color Wash" startTime="111650000" endTime="121950000" palette="11"/>
-        <Effect ref="56" name="SingleStrand" startTime="121950000" endTime="132300000" palette="15"/>
-        <Effect ref="57" name="Marquee" startTime="132300000" endTime="142650000" palette="6"/>
-        <Effect ref="58" name="VU Meter" startTime="142650000" endTime="152950000" palette="10"/>
-        <Effect ref="59" name="Bars" startTime="152950000" endTime="163300000" palette="5"/>
-        <Effect ref="63" name="Color Wash" startTime="163300000" endTime="165200000" palette="9"/>
-        <Effect ref="61" name="Color Wash" startTime="165200000" endTime="181350000" palette="29"/>
-        <Effect ref="57" name="Marquee" startTime="181350000" endTime="191700000" palette="5"/>
-        <Effect ref="58" name="VU Meter" startTime="191700000" endTime="202000000" palette="4"/>
-        <Effect ref="59" name="Bars" startTime="202000000" endTime="212300000" palette="10"/>
-        <Effect ref="60" name="Color Wash" startTime="212300000" endTime="222650000" palette="7"/>
-        <Effect ref="64" name="SingleStrand" startTime="222650000" endTime="227800000" palette="5"/>
-        <Effect ref="13" name="Color Wash" startTime="227800000" endTime="234850000" palette="12"/>
+        <Effect ref="55" name="On" startTime="0" endTime="14900" palette="34"/>
+        <Effect ref="56" name="Curtain" startTime="14900" endTime="21350" palette="4"/>
+        <Effect ref="57" name="SingleStrand" startTime="21350" endTime="31650" palette="5"/>
+        <Effect ref="58" name="Marquee" startTime="31650" endTime="42000" palette="6"/>
+        <Effect ref="59" name="VU Meter" startTime="42000" endTime="52300" palette="4"/>
+        <Effect ref="60" name="Bars" startTime="52300" endTime="62650" palette="19"/>
+        <Effect ref="61" name="Color Wash" startTime="62650" endTime="72950" palette="12"/>
+        <Effect ref="57" name="SingleStrand" startTime="72950" endTime="83300" palette="6"/>
+        <Effect ref="62" name="Color Wash" startTime="83300" endTime="102100" palette="35"/>
+        <Effect ref="63" name="Bars" startTime="102100" endTime="111650" palette="19"/>
+        <Effect ref="61" name="Color Wash" startTime="111650" endTime="121950" palette="12"/>
+        <Effect ref="57" name="SingleStrand" startTime="121950" endTime="132300" palette="17"/>
+        <Effect ref="58" name="Marquee" startTime="132300" endTime="142650" palette="6"/>
+        <Effect ref="59" name="VU Meter" startTime="142650" endTime="152950" palette="19"/>
+        <Effect ref="60" name="Bars" startTime="152950" endTime="163300" palette="5"/>
+        <Effect ref="64" name="Color Wash" startTime="163300" endTime="165200" palette="9"/>
+        <Effect ref="62" name="Color Wash" startTime="165200" endTime="181350" palette="35"/>
+        <Effect ref="58" name="Marquee" startTime="181350" endTime="191700" palette="5"/>
+        <Effect ref="59" name="VU Meter" startTime="191700" endTime="202000" palette="4"/>
+        <Effect ref="60" name="Bars" startTime="202000" endTime="212300" palette="19"/>
+        <Effect ref="61" name="Color Wash" startTime="212300" endTime="222650" palette="7"/>
+        <Effect ref="65" name="SingleStrand" startTime="222650" endTime="227800" palette="5"/>
+        <Effect ref="13" name="Color Wash" startTime="227800" endTime="234850" palette="13"/>
       </EffectLayer>
       <EffectLayer>
 
@@ -882,33 +890,33 @@
     </Element>
     <Element type="model" name="canes">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="21350000" endTime="21950000" palette="0"/>
-        <Effect ref="0" name="On" startTime="102100000" endTime="102700000" palette="0"/>
-        <Effect ref="0" name="On" startTime="181350000" endTime="181950000" palette="0"/>
+        <Effect ref="0" name="On" startTime="21350" endTime="21950" palette="0"/>
+        <Effect ref="0" name="On" startTime="102100" endTime="102700" palette="0"/>
+        <Effect ref="0" name="On" startTime="181350" endTime="181950" palette="0"/>
       </EffectLayer>
       <EffectLayer>
-        <Effect ref="65" name="VU Meter" startTime="14900000" endTime="21350000" palette="30"/>
-        <Effect ref="66" name="Marquee" startTime="21350000" endTime="31650000" palette="30"/>
-        <Effect ref="67" name="VU Meter" startTime="31650000" endTime="42000000" palette="6"/>
-        <Effect ref="68" name="SingleStrand" startTime="42000000" endTime="52300000" palette="30"/>
-        <Effect ref="69" name="Bars" startTime="52300000" endTime="62650000" palette="10"/>
-        <Effect ref="66" name="Marquee" startTime="62650000" endTime="72950000" palette="30"/>
-        <Effect ref="67" name="VU Meter" startTime="72950000" endTime="83300000" palette="6"/>
-        <Effect ref="70" name="Twinkle" startTime="83300000" endTime="102100000" palette="31"/>
-        <Effect ref="71" name="Bars" startTime="102100000" endTime="111650000" palette="10"/>
-        <Effect ref="66" name="Marquee" startTime="111650000" endTime="121950000" palette="30"/>
-        <Effect ref="67" name="VU Meter" startTime="121950000" endTime="132300000" palette="15"/>
-        <Effect ref="68" name="SingleStrand" startTime="132300000" endTime="142650000" palette="30"/>
-        <Effect ref="69" name="Bars" startTime="142650000" endTime="152950000" palette="10"/>
-        <Effect ref="66" name="Marquee" startTime="152950000" endTime="163300000" palette="30"/>
-        <Effect ref="67" name="VU Meter" startTime="163300000" endTime="165200000" palette="15"/>
-        <Effect ref="70" name="Twinkle" startTime="165200000" endTime="181350000" palette="31"/>
-        <Effect ref="67" name="VU Meter" startTime="181350000" endTime="191700000" palette="5"/>
-        <Effect ref="68" name="SingleStrand" startTime="191700000" endTime="202000000" palette="30"/>
-        <Effect ref="69" name="Bars" startTime="202000000" endTime="212300000" palette="10"/>
-        <Effect ref="66" name="Marquee" startTime="212300000" endTime="222650000" palette="30"/>
-        <Effect ref="67" name="VU Meter" startTime="222650000" endTime="227800000" palette="5"/>
-        <Effect ref="13" name="Color Wash" startTime="227800000" endTime="234850000" palette="12"/>
+        <Effect ref="66" name="VU Meter" startTime="14900" endTime="21350" palette="36"/>
+        <Effect ref="67" name="Marquee" startTime="21350" endTime="31650" palette="36"/>
+        <Effect ref="59" name="VU Meter" startTime="31650" endTime="42000" palette="6"/>
+        <Effect ref="68" name="SingleStrand" startTime="42000" endTime="52300" palette="36"/>
+        <Effect ref="69" name="Bars" startTime="52300" endTime="62650" palette="19"/>
+        <Effect ref="67" name="Marquee" startTime="62650" endTime="72950" palette="36"/>
+        <Effect ref="59" name="VU Meter" startTime="72950" endTime="83300" palette="6"/>
+        <Effect ref="70" name="Twinkle" startTime="83300" endTime="102100" palette="37"/>
+        <Effect ref="71" name="Bars" startTime="102100" endTime="111650" palette="19"/>
+        <Effect ref="67" name="Marquee" startTime="111650" endTime="121950" palette="36"/>
+        <Effect ref="59" name="VU Meter" startTime="121950" endTime="132300" palette="17"/>
+        <Effect ref="68" name="SingleStrand" startTime="132300" endTime="142650" palette="36"/>
+        <Effect ref="69" name="Bars" startTime="142650" endTime="152950" palette="19"/>
+        <Effect ref="67" name="Marquee" startTime="152950" endTime="163300" palette="36"/>
+        <Effect ref="59" name="VU Meter" startTime="163300" endTime="165200" palette="17"/>
+        <Effect ref="70" name="Twinkle" startTime="165200" endTime="181350" palette="37"/>
+        <Effect ref="59" name="VU Meter" startTime="181350" endTime="191700" palette="5"/>
+        <Effect ref="68" name="SingleStrand" startTime="191700" endTime="202000" palette="36"/>
+        <Effect ref="69" name="Bars" startTime="202000" endTime="212300" palette="19"/>
+        <Effect ref="67" name="Marquee" startTime="212300" endTime="222650" palette="36"/>
+        <Effect ref="59" name="VU Meter" startTime="222650" endTime="227800" palette="5"/>
+        <Effect ref="13" name="Color Wash" startTime="227800" endTime="234850" palette="13"/>
       </EffectLayer>
       <EffectLayer>
 
@@ -916,34 +924,34 @@
     </Element>
     <Element type="model" name="Strip - Front Porch Outline">
       <EffectLayer>
-        <Effect ref="0" name="On" startTime="21350000" endTime="21950000" palette="0"/>
-        <Effect ref="0" name="On" startTime="102100000" endTime="102700000" palette="0"/>
-        <Effect ref="0" name="On" startTime="181350000" endTime="181950000" palette="0"/>
+        <Effect ref="0" name="On" startTime="21350" endTime="21950" palette="0"/>
+        <Effect ref="0" name="On" startTime="102100" endTime="102700" palette="0"/>
+        <Effect ref="0" name="On" startTime="181350" endTime="181950" palette="0"/>
       </EffectLayer>
       <EffectLayer>
-        <Effect ref="3" name="Twinkle" startTime="0" endTime="14900000" palette="32"/>
-        <Effect ref="72" name="SingleStrand" startTime="14900000" endTime="21350000" palette="13"/>
-        <Effect ref="73" name="SingleStrand" startTime="21350000" endTime="31650000" palette="5"/>
-        <Effect ref="74" name="VU Meter" startTime="31650000" endTime="42000000" palette="6"/>
-        <Effect ref="75" name="Marquee" startTime="42000000" endTime="52300000" palette="4"/>
-        <Effect ref="76" name="Bars" startTime="52300000" endTime="62650000" palette="10"/>
-        <Effect ref="73" name="SingleStrand" startTime="62650000" endTime="72950000" palette="5"/>
-        <Effect ref="74" name="VU Meter" startTime="72950000" endTime="83300000" palette="6"/>
-        <Effect ref="77" name="SingleStrand" startTime="83300000" endTime="102100000" palette="33"/>
-        <Effect ref="78" name="Bars" startTime="102100000" endTime="111650000" palette="10"/>
-        <Effect ref="73" name="SingleStrand" startTime="111650000" endTime="121950000" palette="5"/>
-        <Effect ref="74" name="VU Meter" startTime="121950000" endTime="132300000" palette="15"/>
-        <Effect ref="75" name="Marquee" startTime="132300000" endTime="142650000" palette="6"/>
-        <Effect ref="76" name="Bars" startTime="142650000" endTime="152950000" palette="10"/>
-        <Effect ref="73" name="SingleStrand" startTime="152950000" endTime="163300000" palette="5"/>
-        <Effect ref="74" name="VU Meter" startTime="163300000" endTime="165200000" palette="15"/>
-        <Effect ref="77" name="SingleStrand" startTime="165200000" endTime="181350000" palette="33"/>
-        <Effect ref="74" name="VU Meter" startTime="181350000" endTime="191700000" palette="5"/>
-        <Effect ref="75" name="Marquee" startTime="191700000" endTime="202000000" palette="4"/>
-        <Effect ref="76" name="Bars" startTime="202000000" endTime="212300000" palette="10"/>
-        <Effect ref="73" name="SingleStrand" startTime="212300000" endTime="222650000" palette="6"/>
-        <Effect ref="74" name="VU Meter" startTime="222650000" endTime="227800000" palette="5"/>
-        <Effect ref="13" name="Color Wash" startTime="227800000" endTime="234850000" palette="12"/>
+        <Effect ref="3" name="Twinkle" startTime="0" endTime="14900" palette="38"/>
+        <Effect ref="72" name="SingleStrand" startTime="14900" endTime="21350" palette="14"/>
+        <Effect ref="73" name="SingleStrand" startTime="21350" endTime="31650" palette="5"/>
+        <Effect ref="74" name="VU Meter" startTime="31650" endTime="42000" palette="6"/>
+        <Effect ref="75" name="Marquee" startTime="42000" endTime="52300" palette="4"/>
+        <Effect ref="76" name="Bars" startTime="52300" endTime="62650" palette="19"/>
+        <Effect ref="73" name="SingleStrand" startTime="62650" endTime="72950" palette="5"/>
+        <Effect ref="74" name="VU Meter" startTime="72950" endTime="83300" palette="6"/>
+        <Effect ref="77" name="SingleStrand" startTime="83300" endTime="102100" palette="39"/>
+        <Effect ref="78" name="Bars" startTime="102100" endTime="111650" palette="19"/>
+        <Effect ref="73" name="SingleStrand" startTime="111650" endTime="121950" palette="5"/>
+        <Effect ref="74" name="VU Meter" startTime="121950" endTime="132300" palette="17"/>
+        <Effect ref="75" name="Marquee" startTime="132300" endTime="142650" palette="6"/>
+        <Effect ref="76" name="Bars" startTime="142650" endTime="152950" palette="19"/>
+        <Effect ref="73" name="SingleStrand" startTime="152950" endTime="163300" palette="5"/>
+        <Effect ref="74" name="VU Meter" startTime="163300" endTime="165200" palette="17"/>
+        <Effect ref="77" name="SingleStrand" startTime="165200" endTime="181350" palette="39"/>
+        <Effect ref="74" name="VU Meter" startTime="181350" endTime="191700" palette="5"/>
+        <Effect ref="75" name="Marquee" startTime="191700" endTime="202000" palette="4"/>
+        <Effect ref="76" name="Bars" startTime="202000" endTime="212300" palette="19"/>
+        <Effect ref="73" name="SingleStrand" startTime="212300" endTime="222650" palette="6"/>
+        <Effect ref="74" name="VU Meter" startTime="222650" endTime="227800" palette="5"/>
+        <Effect ref="13" name="Color Wash" startTime="227800" endTime="234850" palette="13"/>
       </EffectLayer>
       <EffectLayer>
 

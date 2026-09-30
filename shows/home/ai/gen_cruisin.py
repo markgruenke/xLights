@@ -10,7 +10,12 @@ FRAME = 50
 random.seed(7)
 
 def snap(t):
+    """seconds -> ms on the frame grid"""
     return int(round(t * 1000.0 / FRAME)) * FRAME
+
+def snap_ms(t):
+    """ms -> ms on the frame grid"""
+    return int(round(t / FRAME)) * FRAME
 
 # ---------------------------------------------------------------- palettes
 XMAS   = ["#C80000", "#00A000", "#FFD700", "#FFF4D0"]
@@ -56,7 +61,7 @@ def E(name, t0, t1, settings=None, colors=XMAS, fi=0.0, fo=0.0, blend="Normal", 
         parts.append(f"B_CHOICE_BufferTransform={xform}")
     if blur:
         parts.append(f"B_SLIDER_Blur={blur}")
-    return dict(name=name, t0=snap(t0), t1=snap(t1), settings=",".join(parts),
+    return dict(name=name, t0=snap_ms(t0), t1=snap_ms(t1), settings=",".join(parts),
                 palette=pal(colors, brightness, sparkle))
 
 # ---------------------------------------------------------------- song analysis
@@ -134,11 +139,11 @@ def tree_high(v, t0, t1, cols):
     if v == 1:
         return E("Spirals", t0, t1, {"SLIDER_Spirals_Count": 3, "SLIDER_Spirals_Rotation": 30,
                                      "SLIDER_Spirals_Thickness": 60, "TEXTCTRL_Spirals_Movement": f"{nb*1.0:.1f}",
-                                     "CHECKBOX_Spirals_3D": True}, cols, fi=0.3, fo=0.3)
+                                     "CHECKBOX_Spirals_3D": True}, cols[:2], fi=0.3, fo=0.3)
     if v == 2:
         return E("Meteors", t0, t1, {"CHOICE_Meteors_Type": "Palette", "CHOICE_Meteors_Effect": "Down",
                                      "SLIDER_Meteors_Count": 25, "SLIDER_Meteors_Length": 35,
-                                     "SLIDER_Meteors_Speed": 18, "CHECKBOX_Meteors_UseMusic": True}, cols, fi=0.3, fo=0.5)
+                                     "SLIDER_Meteors_Speed": 18}, cols, fi=0.3, fo=0.5)
     if v == 3:
         return E("Fire", t0, t1, {"SLIDER_Fire_Height": 65, "CHECKBOX_Fire_GrowWithMusic": True,
                                   "TEXTCTRL_Fire_GrowthCycles": "0.0"}, WARM, fi=0.5, fo=0.5)
@@ -150,9 +155,9 @@ def tree_high(v, t0, t1, cols):
                                     "CHECKBOX_ColorWash_CircularPalette": True}, cols, fi=0.3, fo=0.3, sparkle=40)
 
 def tree_pulse(t0, t1):
-    # beat-driven white jump on the top layer, brighter-pixel-wins so it rides over the main effect
+    # beat-driven white jump on the top layer; Additive so it rides over the main effect (Max hides the layer below)
     return E("VU Meter", t0, t1, {"CHOICE_VUMeter_Type": "Timing Event Jump", "CHOICE_VUMeter_TimingTrack": "Beats",
-                                  "SLIDER_VUMeter_Bars": 6}, WWHITE, blend="Max", brightness=55)
+                                  "SLIDER_VUMeter_Bars": 6}, WWHITE, blend="Additive", brightness=55)
 
 def text_eff(text, t0, t1, cols, fi=0.3, fo=0.3, speed=14):
     if len(text) * 7 <= 60:
@@ -172,21 +177,22 @@ def bay_high(v, t0, t1, cols):
         return [E("VU Meter", t0, t1, {"CHOICE_VUMeter_Type": "Spectrogram Peak", "SLIDER_VUMeter_Bars": 15,
                                        "SLIDER_VUMeter_Sensitivity": 75}, cols, fi=0.3, fo=0.3)]
     if v == 2:
-        return [E("Fireworks", t0, t1, {"SLIDER_Fireworks_Explosions": 12, "SLIDER_Fireworks_Count": 60,
-                                        "SLIDER_Fireworks_Velocity": 3, "CHECKBOX_FIRETIMING": True,
-                                        "CHOICE_FIRETIMINGTRACK": "Bars", "SLIDER_Fireworks_Fade": 40}, cols, fi=0.3, fo=0.5)]
+        return [E("Shape", t0, t1, {"CHOICE_Shape_ObjectToDraw": "Circle", "SLIDER_Shape_Thickness": 3, "TEXTCTRL_Shape_Count": 3,
+                                    "SLIDER_Shape_StartSize": 5, "SLIDER_Shape_Lifetime": 20, "SLIDER_Shape_Growth": 30,
+                                    "CHECKBOX_Shape_FireTiming": True, "CHOICE_Shape_FireTimingTrack": "Beats"}, WHITE + cols, fi=0.3, fo=0.3),
+                E("Plasma", t0, t1, {"CHOICE_Plasma_Color": "Normal", "SLIDER_Plasma_Style": 3, "SLIDER_Plasma_Line_Density": 2,
+                                     "SLIDER_Plasma_Speed": 10}, cols, fi=0.5, fo=0.5, brightness=30)]
     if v == 3:
         return [E("Pinwheel", t0, t1, {"SLIDER_Pinwheel_Arms": 4, "SLIDER_Pinwheel_Speed": 14, "SLIDER_Pinwheel_Twist": 90,
-                                       "SLIDER_Pinwheel_Thickness": 40, "CHOICE_Pinwheel_3D": "3D"}, cols, fi=0.3, fo=0.3)]
+                                       "SLIDER_Pinwheel_Thickness": 40}, cols, fi=0.3, fo=0.3)]
     if v == 4:
-        return [E("Ripple", t0, t1, {"CHOICE_Ripple_Object_To_Draw": "Star", "CHOICE_Ripple_Movement": "Explode",
-                                     "CHOICE_Ripple_Draw_Style": "Lines Outward Ripple", "SLIDER_Ripple_Thickness": 4,
-                                     "CHOICE_Ripple_TimingTrack": "Beats", "SLIDER_Ripple_Duration": 650,
-                                     "TEXTCTRL_Ripple_Cycles": "1.0"}, cols, fi=0.3, fo=0.3)]
+        nb = max(1, len(bars_in(t0, t1)))
+        return [E("Bars", t0, t1, {"SLIDER_Bars_BarCount": 3, "TEXTCTRL_Bars_Cycles": f"{nb*1.0:.1f}", "CHOICE_Bars_Direction": "Left",
+                                   "CHECKBOX_Bars_Gradient": True, "CHECKBOX_Bars_3D": True}, cols, fi=0.3, fo=0.3)]
     return [E("Text", t0, t1, {"TEXTCTRL_Text": "Vincent Antone", "CHOICE_Text_Font": "10-12x12 Bold",
                                "CHOICE_Text_Dir": "left", "TEXTCTRL_Text_Speed": 14}, WHITE, fi=0.3, fo=0.3),
-            E("Spirals", t0, t1, {"SLIDER_Spirals_Count": 2, "SLIDER_Spirals_Rotation": 20, "SLIDER_Spirals_Thickness": 70,
-                                  "TEXTCTRL_Spirals_Movement": "4.0", "CHECKBOX_Spirals_Blend": True}, cols, fi=0.5, fo=0.5, brightness=45)]
+            E("Color Wash", t0, t1, {"TEXTCTRL_ColorWash_Cycles": "3.0", "CHECKBOX_ColorWash_HFade": True,
+                                     "CHECKBOX_ColorWash_CircularPalette": True}, cols, fi=0.5, fo=0.5, brightness=40)]
 
 def upper_high(v, t0, t1, cols, right):
     v = v % 6
@@ -235,7 +241,7 @@ def icicles_high(v, t0, t1, cols):
 
 def icicles_pulse(t0, t1):
     return E("VU Meter", t0, t1, {"CHOICE_VUMeter_Type": "Timing Event Pulse", "CHOICE_VUMeter_TimingTrack": "Bars"},
-             WHITE, blend="Max", brightness=35)
+             WHITE, blend="Additive", brightness=35)
 
 def windows_high(v, t0, t1, cols):
     nb = max(1, len(bars_in(t0, t1)))
@@ -264,8 +270,8 @@ def canes_high(v, t0, t1, cols):
         return E("Marquee", t0, t1, {"SLIDER_Marquee_Band_Size": 3, "SLIDER_Marquee_Skip_Size": 3, "SLIDER_Marquee_Speed": 8,
                                      "SLIDER_Marquee_Thickness": 100}, CANDY, fi=0.3, fo=0.3, buf="Per Model Single Line")
     if v == 1:
-        return E("VU Meter", t0, t1, {"CHOICE_VUMeter_Type": "Timing Event Alternate Timed Sweep", "CHOICE_VUMeter_TimingTrack": "Beats",
-                                      "SLIDER_VUMeter_Bars": 8}, cols, fi=0.3, fo=0.3, buf="Single Line")
+        return E("VU Meter", t0, t1, {"CHOICE_VUMeter_Type": "Timing Event Pulse Color", "CHOICE_VUMeter_TimingTrack": "Beats"},
+                 cols, fi=0.3, fo=0.3, buf="Per Model Default")
     if v == 2:
         return E("SingleStrand", t0, t1, {"CHOICE_SingleStrand_Colors": "Palette", "SLIDER_Number_Chases": 2,
                                           "SLIDER_Color_Mix1": 40, "TEXTCTRL_Chase_Rotations": f"{nb*2.0:.1f}",
@@ -317,9 +323,9 @@ def high_section(t0, t1, palettes, voffset=0):
 def low_section(t0, t1, cols, text):
     mid = (t0 + t1) // 2
     add(TREE, 1, E("Spirals", t0, t1, {"SLIDER_Spirals_Count": 2, "SLIDER_Spirals_Rotation": 15, "SLIDER_Spirals_Thickness": 70,
-                                        "TEXTCTRL_Spirals_Movement": "1.5", "CHECKBOX_Spirals_Blend": True, "CHECKBOX_Spirals_3D": True},
-                   cols, fi=1.5, fo=1.0, brightness=80))
-    add(TREE, 0, E("Twinkle", t0, t1, {"SLIDER_Twinkle_Count": 4, "SLIDER_Twinkle_Steps": 40}, WHITE, blend="Max", brightness=50, fi=1.5, fo=1.0))
+                                        "TEXTCTRL_Spirals_Movement": "1.5", "CHECKBOX_Spirals_Blend": True},
+                   cols, fi=1.5, fo=1.0, brightness=55))
+    add(TREE, 0, E("Twinkle", t0, t1, {"SLIDER_Twinkle_Count": 4, "SLIDER_Twinkle_Steps": 40}, WHITE, blend="Additive", brightness=50, fi=1.5, fo=1.0))
     add(BAY, 1, text_eff(text[0], t0, mid, ICE, fi=0.5, fo=0.5))
     add(BAY, 1, text_eff(text[1], mid, t1, ICE, fi=0.5, fo=0.5))
     add(BAY, 2, E("Snowflakes", t0, t1, {"SLIDER_Snowflakes_Count": 8, "SLIDER_Snowflakes_Type": 3, "SLIDER_Snowflakes_Speed": 6,
@@ -352,8 +358,8 @@ add(OUT, 1, E("Twinkle", t_intro, t_build, {"SLIDER_Twinkle_Count": 3, "SLIDER_T
 nbb = max(1, len(bars_in(t_build, tA)))
 add(TREE, 1, E("Meteors", t_build, tA, {"CHOICE_Meteors_Type": "Palette", "CHOICE_Meteors_Effect": "Up", "SLIDER_Meteors_Count": 15,
                                          "SLIDER_Meteors_Length": 40, "SLIDER_Meteors_Speed": 20}, WARM, fi=0.5))
-add(BAY, 1, E("Shockwave", t_build, tA, {"SLIDER_Shockwave_End_Radius": 60, "SLIDER_Shockwave_Start_Width": 4, "SLIDER_Shockwave_End_Width": 12,
-                                          "CHOICE_Shockwave_TimingTrack": "Bars", "SLIDER_Shockwave_Duration": 900}, GOLD))
+add(BAY, 1, E("Curtain", t_build, tA, {"CHOICE_Curtain_Edge": "center", "CHOICE_Curtain_Effect": "open", "TEXTCTRL_Curtain_Speed": "1.0",
+                                        "SLIDER_Curtain_Swag": 4}, WARM))
 for m, r in ((UL, False), (UR, True)):
     add(m, 1, E("Curtain", t_build, tA, {"CHOICE_Curtain_Edge": "bottom", "CHOICE_Curtain_Effect": "open", "TEXTCTRL_Curtain_Speed": "1.0",
                                          "SLIDER_Curtain_Swag": 4}, WARM, xform="Flip Horizontal" if r else None))
