@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2026.17</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song>Cruisin&amp;apos;</song>
+    <artist>Vincent Antone</artist>
+    <album>Cruisin&amp;apos;</album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>50 ms</sequenceTiming>
+    <sequenceType>Media</sequenceType>
+    <mediaFile>E:\Mark\Music\spotify downloads\vincent antone and Manic Focus\006 - Vincent Antone - Cruisin'.mp3</mediaFile>
+    <sequenceDuration>234.854</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#ffffff,C_BUTTON_Palette2=#ff0000,C_BUTTON_Palette3=#00ff00,C_BUTTON_Palette4=#0000ff,C_BUTTON_Palette5=#ffff00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00ffff,C_BUTTON_Palette8=#ff00ff,C_CHECKBOXBRIGHTNESSLEVEL=0,C_CHECKBOX_Chroma=0,C_CHECKBOX_MusicSparkles=0,C_CHECKBOX_Palette1=0,C_CHECKBOX_Palette2=0,C_CHECKBOX_Palette3=1,C_CHECKBOX_Palette4=1,C_CHECKBOX_Palette5=1,C_CHECKBOX_Palette6=0,C_CHECKBOX_Palette7=1,C_CHECKBOX_Palette8=1,C_SLIDER_SparkleFrequency=0</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_CHECKBOX_ColorWash_CircularPalette=0,E_CHECKBOX_ColorWash_HFade=1,E_CHECKBOX_ColorWash_ReverseFades=0,E_CHECKBOX_ColorWash_Shimmer=0,E_CHECKBOX_ColorWash_VFade=1,E_TEXTCTRL_ColorWash_Cycles=10.6,T_CHECKBOX_Canvas=0,T_CHECKBOX_LayerMorph=0,T_CHOICE_LayerMethod=Normal,T_SLIDER_EffectLayerMix=0</Effect>
+  </EffectDB>
+  <SequenceMedia />
+  <DataLayers>
+    <DataLayer lor_params="0" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode>" source="&lt;auto-generated>" name="Nutcracker" />
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="false" type="timing" name="New Timing" visible="true" views=",Master View,NonRendering View,Test View" active="true" />
+    <Element collapsed="false" type="model" name="All Pixels" visible="true" />
+    <Element collapsed="false" type="model" name="ICICLES GRP" visible="true" />
+    <Element collapsed="false" type="model" name="Icicles - Eve Left" visible="true" />
+    <Element collapsed="false" type="model" name="Icicles - Eve Right" visible="true" />
+    <Element collapsed="false" type="model" name="Icicles - Porch Above Front Rail" visible="true" />
+    <Element collapsed="false" type="model" name="Icicles-Porch Above Steps" visible="true" />
+    <Element collapsed="false" type="model" name="MATRICES" visible="true" />
+    <Element collapsed="false" type="model" name="Matrix - Front Bay" visible="true" />
+    <Element collapsed="false" type="model" name="Matrix - Upper Left" visible="true" />
+    <Element collapsed="false" type="model" name="Matrix - Upper Right" visible="true" />
+    <Element collapsed="false" type="model" name="Strip - Front Porch Outline" visible="true" />
+    <Element collapsed="false" type="model" name="Tree" visible="true" />
+    <Element collapsed="false" type="model" name="WINDOWS BRDR" visible="true" />
+    <Element collapsed="false" type="model" name="Window - Front - Lower - Bay_Main" visible="true" />
+    <Element collapsed="false" type="model" name="Window - Front - Porch - Left" visible="true" />
+    <Element collapsed="false" type="model" name="Window - Front - Porch - Middle" visible="true" />
+    <Element collapsed="false" type="model" name="Window - Front - Porch - Right" visible="true" />
+    <Element collapsed="false" type="model" name="Window - Front - Upper - Left" visible="true" />
+    <Element collapsed="false" type="model" name="Window - Front - Upper - Right" visible="true" />
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="New Timing">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="All Pixels">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="ICICLES GRP">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Icicles - Eve Left">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Icicles - Eve Right">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Icicles - Porch Above Front Rail">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Icicles-Porch Above Steps">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="MATRICES">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Matrix - Front Bay">
+      <EffectLayer>
+        <Effect ref="0" name="Color Wash" selected="1" startTime="300" endTime="43550" palette="0" />
+      </EffectLayer>
+    </Element>
+    <Element type="model" name="Matrix - Upper Left">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Matrix - Upper Right">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Strip - Front Porch Outline">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Tree">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="WINDOWS BRDR">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Window - Front - Lower - Bay_Main">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Window - Front - Porch - Left">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Window - Front - Porch - Middle">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Window - Front - Porch - Right">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Window - Front - Upper - Left">
+      <EffectLayer />
+    </Element>
+    <Element type="model" name="Window - Front - Upper - Right">
+      <EffectLayer />
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1" />
+    <Tag number="1" position="-1" />
+    <Tag number="2" position="-1" />
+    <Tag number="3" position="-1" />
+    <Tag number="4" position="-1" />
+    <Tag number="5" position="-1" />
+    <Tag number="6" position="-1" />
+    <Tag number="7" position="-1" />
+    <Tag number="8" position="-1" />
+    <Tag number="9" position="-1" />
+  </TimingTags>
+</xsequence>

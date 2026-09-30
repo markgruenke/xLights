@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xrgb>
+  <models>
+    <model DisplayAs="Icicles" StringType="RGB Nodes" StartSide="B" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" parm2="80" DropPattern="3,4,5,4" Controller="No Controller" LayoutGroup="Default" Dir="R" name="Icicles-Porch Above Steps" WorldPosX="101.5240" WorldPosY="417.9883" WorldPosZ="-145.0866" X2="-1.000015" Y2="0.000000" Z2="145.336105" RotateX="0.00000000" Height="-0.500000" Shear="0.000000" versionNumber="7" StartChannel="14791">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Poly Line" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" Controller="No Controller" LayoutGroup="Default" parm2="300" name="Strip - Front Porch Outline" WorldPosX="514.3902" WorldPosY="254.1132" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" NumPoints="7" PointData="0.000000,0.000000,0.000000,-279.604279,-2.048386,0.000000,-361.539612,-58.378922,0.000000,-352.321869,1.024200,0.000000,-272.434937,49.161209,0.000000,-2.048401,48.137009,0.000000,0.000000,-1.024185,0.000000" cPointData="" versionNumber="7" StartChannel="15031">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Window Frame" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" Controller="No Controller" LayoutGroup="Default" name="Window - Front - Porch - Left" WorldPosX="237.5030" WorldPosY="308.0000" WorldPosZ="-130.2543" ScaleX="2.6108" ScaleY="1.7600" ScaleZ="0.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="-4.00000000" versionNumber="7" StartChannel="15931">
+      <ControllerConnection Protocol="ws2811"/>
+    </model>
+    <model StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" DisplayAs="Horiz Matrix" parm1="1" parm3="20" parm2="440" Dir="L" StartSide="B" Controller="Controller_32Ch_704PixMax" name="Matrix - Upper Right" LayoutGroup="Unassigned" WorldPosX="647.7479" WorldPosY="483.5000" WorldPosZ="0.0000" ScaleX="1.3866" ScaleY="3.7500" ScaleZ="0.0485" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="7" StartChannel="!Controller_32Ch_704PixMax:8539">
+      <ControllerConnection Protocol="ws2811" Port="22"/>
+    </model>
+    <model DisplayAs="Window Frame" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" Controller="Controller_32Ch_704PixMax" ModelChain="&gt;Matrix - Upper Right" name="Window - Front - Upper - Right" LayoutGroup="Unassigned" WorldPosX="648.8456" WorldPosY="482.5461" WorldPosZ="0.0000" ScaleX="2.4345" ScaleY="1.5018" ScaleZ="0.0588" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="7" StartChannel="!Controller_32Ch_704PixMax:9859">
+      <ControllerConnection Port="22" Protocol="ws2811"/>
+    </model>
+    <model StringType="RGB Nodes" Antialias="1" PixelSize="2" Transparency="0" DisplayAs="Horiz Matrix" parm1="1" parm3="20" parm2="440" Dir="L" StartSide="B" Controller="Controller_32Ch_704PixMax" name="Matrix - Upper Left" LayoutGroup="Unassigned" WorldPosX="606.0000" WorldPosY="484.5000" WorldPosZ="0.0000" ScaleX="1.4934" ScaleY="3.2324" ScaleZ="0.0485" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="7" StartChannel="!Controller_32Ch_704PixMax:6823">
+      <ControllerConnection Protocol="ws2811" Port="21"/>
+    </model>
+    <model DisplayAs="Icicles" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" DropPattern="3,4,5,4" parm2="600" AlternateNodes="false" Controller="Controller_8Ch_NApixMax" name="Icicles - Porch Above Front Rail" LayoutGroup="Unassigned" WorldPosX="107.2581" WorldPosY="412.2581" WorldPosZ="0.0000" X2="429.677429" Y2="-0.829498" Z2="0.000000" RotateX="0.00000000" Height="-1.853281" Shear="0.142396" versionNumber="7" StartChannel="!Controller_8Ch_NApixMax:1">
+      <ControllerConnection Protocol="ws2811" Port="10"/>
+      <subModel name="EveStrip" layout="horizontal" type="ranges" bufferstyle="Default" line0="1,4,8,13,17,20,24,29,33,36,40,45,49,52,56,61,65,68,72,77,81,84,88,93,97,100,104,109,113,116,120,125,129,132,136,141,145,148,152,157,161,164,168,173,177,180,184,189,193,196,200,205,209,212,216,221,225,228,232,237,241,244,248,253,257,260,264,269,273,276,280,285,289,292,296,301,305,308,312,317,321,324,328,333,337,340,344,349,353,356,360,365,369,372,376,381,385,388,392,397,401,404,408,413,417,420,424,429,433,436,440,445,449,452,456,461,465,468,472,477,481,484,488,493,497,500,504,509,513,516,520,525,529,532,536,541,545,548,552,557,561,564,568,573,577,580,584,589,593,596,600">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Icicles" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" DropPattern="3,4,5,4" parm2="300" Controller="Controller_8Ch_NApixMax" name="Icicles - Eve Left" LayoutGroup="Unassigned" WorldPosX="481.3595" WorldPosY="519.6592" WorldPosZ="0.0000" X2="148.479248" Y2="77.972351" Z2="0.000000" RotateX="0.00000000" Height="-2.196065" Shear="0.629027" versionNumber="7" StartChannel="!Controller_8Ch_NApixMax:1801">
+      <ControllerConnection Protocol="ws2811" Port="11"/>
+      <subModel name="EveStrip2" layout="horizontal" type="ranges" bufferstyle="Default" line0="1,4,8,13,17,20,24,29,33,36,40,45,49,52,56,61,65,68,72,77,81,84,88,93,97,100,104,109,113,116,120,125,129,132,136,141,145,148,152,157,161,164,168,173,177,180,184,189,193,196,200,205,209,212,216,221,225,228,232,237,241,244,248,253,257,260,264,269,273,276,280,285,289,292,296">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Icicles" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm1="1" parm3="1" DropPattern="3,4,5,4" parm2="300" Controller="Controller_8Ch_NApixMax" name="Icicles - Eve Right" LayoutGroup="Unassigned" WorldPosX="633.4619" WorldPosY="595.5394" WorldPosZ="0.0000" X2="150.967712" Y2="-86.267303" Z2="0.000000" RotateX="0.00000000" Height="-1.835715" Shear="-0.632028" versionNumber="7" StartChannel="!Controller_8Ch_NApixMax:2701">
+      <ControllerConnection Protocol="ws2811" Port="12"/>
+      <subModel name="EveStrip3" layout="horizontal" type="ranges" bufferstyle="Default" line0="1,4,8,13,17,20,24,29,33,36,40,45,49,52,56,61,65,68,72,77,81,84,88,93,97,100,104,109,113,116,120,125,129,132,136,141,145,148,152,157,161,164,168,173,177,180,184,189,193,196,200,205,209,212,216,221,225,228,232,237,241,244,248,253,257,260,264,269,273,276,280,285,289,292,296">
+        <ControllerConnection/>
+      </subModel>
+    </model>
+    <model DisplayAs="Window Frame" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" Controller="Controller_32Ch_704PixMax" name="Window - Front - Porch - Middle" LayoutGroup="Unassigned" WorldPosX="376.4678" WorldPosY="310.2100" WorldPosZ="-130.7835" ScaleX="2.1702" ScaleY="1.8484" ScaleZ="0.0588" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="7" StartChannel="!Controller_32Ch_704PixMax:1">
+      <ControllerConnection Port="11" Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Window Frame" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" Controller="Controller_32Ch_704PixMax" ModelChain="&gt;Window - Front - Porch - Middle" name="Window - Front - Porch - Right" LayoutGroup="Unassigned" WorldPosX="462.0645" WorldPosY="316.1475" WorldPosZ="-130.7835" ScaleX="2.3262" ScaleY="2.0859" ScaleZ="0.0588" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="7" StartChannel="!Controller_32Ch_704PixMax:397">
+      <ControllerConnection Port="11" Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Window Frame" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" Rotation="CW" parm1="70" parm3="70" parm2="35" Controller="Controller_32Ch_704PixMax" name="Window - Front - Lower - Bay_Main" LayoutGroup="Unassigned" WorldPosX="635.7258" WorldPosY="337.7581" WorldPosZ="0.0000" ScaleX="2.2420" ScaleY="2.1190" ScaleZ="0.0141" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="7" StartChannel="!Controller_32Ch_704PixMax:793">
+      <ControllerConnection Port="12" Protocol="ws2811"/>
+    </model>
+    <model DisplayAs="Window Frame" StringType="RGB Nodes" StartSide="B" Dir="L" Antialias="1" PixelSize="2" Transparency="0" parm2="50" parm1="16" parm3="16" Rotation="CW" Controller="Controller_32Ch_704PixMax" ModelChain="&gt;Matrix - Upper Left" name="Window - Front - Upper - Left" LayoutGroup="Unassigned" WorldPosX="607.1083" WorldPosY="481.3387" WorldPosZ="0.0000" ScaleX="2.5435" ScaleY="1.5335" ScaleZ="0.0588" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="7" StartChannel="!Controller_32Ch_704PixMax:8143">
+      <ControllerConnection Port="21" Protocol="ws2811"/>
+    </model>
+    <model StringType="RGB Nodes" Dir="L" Antialias="1" PixelSize="2" Transparency="0" StartSide="T" DisplayAs="Horiz Matrix" parm1="3" parm2="600" parm3="10" Controller="Controller_32Ch_704PixMax" name="Matrix - Front Bay" LayoutGroup="Unassigned" WorldPosX="639.7627" WorldPosY="336.0139" WorldPosZ="0.0000" ScaleX="2.8651" ScaleY="2.3285" ScaleZ="0.0173" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" versionNumber="7" StartChannel="!Controller_32Ch_704PixMax:1423">
+      <ControllerConnection Protocol="ws2811" Port="18"/>
+    </model>
+  </models>
+  <view_objects>
+    <view_object DisplayAs="Gridlines" LayoutGroup="Default" name="Gridlines" GridWidth="2000.0" Active="1" GridHeight="2000" GridLineSpacing="25" GridAxis="1" PointToFront="1" WorldPosX="0.0000" WorldPosY="0.0000" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="0.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="7"/>
+  </view_objects>
+  <effects version="0007"/>
+  <views>
+    <view name="NonRendering View" models="All Pixels,ICICLES GRP,MATRICES,WINDOWS BRDR,Icicles - Eve Left,Icicles - Eve Right,Icicles - Porch Above Front Rail,Matrix - Front Bay,Matrix - Upper Left,Matrix - Upper Right,Window - Front - Porch - Middle,Window - Front - Upper - Left,Window - Front - Upper - Right,Window - Front - Porch - Right,Window - Front - Lower - Bay_Main"/>
+    <view name="Test View" models="All Pixels,WINDOWS BRDR,MATRICES,ICICLES GRP,Icicles-Porch Above Steps,Icicles - Porch Above Front Rail,Icicles - Eve Right,Icicles - Eve Left,Matrix - Upper Right,Matrix - Upper Left,Matrix - Front Bay,Window - Front - Upper - Right,Window - Front - Upper - Left,Window - Front - Porch - Right,Window - Front - Porch - Middle,Window - Front - Porch - Left,Window - Front - Lower - Bay_Main,Strip - Front Porch Outline"/>
+  </views>
+  <palettes/>
+  <modelGroups>
+    <modelGroup selected="0" layout="minimalGrid" GridSize="400" name="WINDOWS BRDR" LayoutGroup="front1" models="Window - Front - Upper - Left,Window - Front - Porch - Right,Window - Front - Upper - Right,Window - Front - Porch - Middle,Window - Front - Lower - Bay_Main,Window - Front - Porch - Left"/>
+    <modelGroup selected="0" LayoutGroup="Unassigned" name="ICICLES GRP" centrex="446.297760" centrey="493.281250" centreDefined="0" centreMinx="107" centreMiny="391" centreMaxx="785" centreMaxy="595" models="Icicles - Eve Right,Icicles - Eve Left,Icicles - Porch Above Front Rail,Icicles-Porch Above Steps" GridSize="400" XCentreOffset="0" YCentreOffset="0" DefaultCamera="2D" layout="minimalGrid" TagColour="black"/>
+    <modelGroup selected="0" layout="minimalGrid" GridSize="400" LayoutGroup="Unassigned" name="MATRICES" centrex="638.330139" centrey="409.168213" centreDefined="0" centreMinx="553" centreMiny="301" centreMaxx="722" centreMaxy="517" models="Matrix - Upper Right,Matrix - Upper Left,Matrix - Front Bay"/>
+    <modelGroup selected="0" name="All Pixels" GridSize="400" XCentreOffset="0" YCentreOffset="0" DefaultCamera="2D" layout="minimalGrid" TagColour="black" models="Window - Front - Porch - Middle,Window - Front - Porch - Right,Window - Front - Lower - Bay_Main,Matrix - Upper Left,Window - Front - Upper - Left,Matrix - Upper Right,Window - Front - Upper - Right,Matrix - Front Bay,Icicles - Porch Above Front Rail,Icicles - Eve Left,Icicles - Eve Right,Icicles - Porch Above Front Rail/EveStrip,Window - Front - Porch - Left,Icicles-Porch Above Steps,Strip - Front Porch Outline" LayoutGroup="All Previews"/>
+  </modelGroups>
+  <layoutGroups/>
+  <perspectives current="Default Perspective">
+    <perspective name="Default Perspective" settings="layout2|name=ModelPreview;caption=Model Preview;state=6293440;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=250;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=HousePreview;caption=House Preview;state=6293440;dir=4;layer=1;row=0;pos=1;prop=100000;bestw=250;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=EffectAssist;caption=Effect Assist;state=2099198;dir=4;layer=1;row=0;pos=2;prop=100000;bestw=250;besth=250;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=DisplayElements;caption=Display Elements;state=6293503;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=600;besth=400;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=600;floath=476|name=Perspectives;caption=Perspectives;state=2099198;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=20;besth=20;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Effect;caption=Effect Settings;state=2099196;dir=4;layer=0;row=1;pos=0;prop=100000;bestw=644;besth=1180;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SelectEffect;caption=Select Effects;state=2099198;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=822;besth=649;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SearchPanel;caption=Search Panel;state=2099198;dir=4;layer=1;row=0;pos=0;prop=100000;bestw=600;besth=600;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=EffectDropper;caption=Effects;state=2099198;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=1170;besth=780;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ValueCurveDropper;caption=Value Curves;state=2099198;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=40;besth=40;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=ColourDropper;caption=Colours;state=2099198;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=20;besth=49;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Jukebox;caption=Jukebox;state=2099198;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=100;besth=200;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=FindData;caption=Find Data;state=2099198;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=20;besth=20;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=Color;caption=Color;state=2099196;dir=1;layer=0;row=0;pos=0;prop=100000;bestw=652;besth=594;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayerTiming;caption=Layer Blending;state=2099196;dir=1;layer=0;row=0;pos=1;prop=100000;bestw=20;besth=20;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=LayerSettings;caption=Layer Settings;state=2099196;dir=1;layer=0;row=0;pos=2;prop=100000;bestw=429;besth=633;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|name=SequenceVideo;caption=Sequence Video;state=2099199;dir=4;layer=0;row=0;pos=0;prop=100000;bestw=480;besth=338;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=396;floaty=396;floatw=504;floath=402|name=Main Sequencer;caption=Main Sequencer;state=768;dir=5;layer=0;row=0;pos=0;prop=100000;bestw=191;besth=80;minw=-1;minh=-1;maxw=-1;maxh=-1;floatx=-1;floaty=-1;floatw=-1;floath=-1|dock_size(4,1,0)=252|dock_size(4,0,1)=348|dock_size(1,0,0)=122|dock_size(5,0,0)=193|" version="2.0"/>
+  </perspectives>
+  <settings>
+    <Display2DCenter0 value="0"/>
+    <scaleImage value="0"/>
+    <Display2DGrid value="0"/>
+    <backgroundAlpha value="50"/>
+    <previewWidth value="1280"/>
+    <previewHeight value="720"/>
+    <backgroundImage value="E:\Mark\Pictures\house exterior photos for xlights\iCloud Photos\IMG_0824.JPG"/>
+    <LayoutMode3D value="1"/>
+    <defaultSeqView value=""/>
+    <storedLayoutGroup value="Default"/>
+  </settings>
+  <colors>
+    <DisabledEffect Red="200" Green="200" Blue="0"/>
+    <EffectDefault Red="192" Green="192" Blue="192"/>
+    <EffectSelected Red="204" Green="102" Blue="255"/>
+    <EffectSelectedDisabled Red="200" Green="200" Blue="64"/>
+    <EffectSelectedFixed Red="255" Green="128" Blue="0"/>
+    <EffectSelectedLocked Red="200" Green="0" Blue="64"/>
+    <GridDashes Red="255" Green="255" Blue="0"/>
+    <Gridlines Red="40" Green="40" Blue="40"/>
+    <LabelOutline Red="103" Green="103" Blue="103"/>
+    <Labels Red="255" Green="255" Blue="204"/>
+    <LayoutDashes Red="255" Green="255" Blue="0"/>
+    <LockedEffect Red="200" Green="0" Blue="0"/>
+    <ModelDefault Red="211" Green="211" Blue="211"/>
+    <ModelOverlap Red="255" Green="0" Blue="0"/>
+    <ModelSelected Red="255" Green="255" Blue="0"/>
+    <Phonemes Red="255" Green="181" Blue="218"/>
+    <Phrases Red="153" Green="255" Blue="153"/>
+    <ReferenceEffect Red="255" Green="0" Blue="255"/>
+    <ReferenceEffectDisabled Red="255" Green="255" Blue="127"/>
+    <ReferenceEffectLocked Red="255" Green="0" Blue="127"/>
+    <RowHeaderSelected Red="130" Green="178" Blue="207"/>
+    <TextHighlighted Red="0" Green="0" Blue="0"/>
+    <TextUnselected Red="0" Green="0" Blue="0"/>
+    <Timing1 Red="0" Green="255" Blue="255"/>
+    <Timing2 Red="255" Green="0" Blue="0"/>
+    <Timing3 Red="0" Green="255" Blue="0"/>
+    <Timing4 Red="0" Green="0" Blue="255"/>
+    <Timing5 Red="255" Green="255" Blue="0"/>
+    <TimingDefault Red="255" Green="255" Blue="255"/>
+    <Waveform Red="130" Green="178" Blue="207"/>
+    <WaveformMouseMarker Red="0" Green="0" Blue="255"/>
+    <WaveformSelected Red="0" Green="0" Blue="200"/>
+    <WaveformSelectedEffect Red="255" Green="128" Blue="0"/>
+    <Words Red="255" Green="218" Blue="145"/>
+  </colors>
+  <Viewpoints/>
+</xrgb>
